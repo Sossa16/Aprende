@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
      <Compile Include="Assets\EventoBotonEstu.cs" />
      <None Include="Assets\Fuente\Intellecta Design Free Fonts License.txt" />
      <None Include="Assets\Fuente\ReadMe.txt" />
@@ -59,6 +60,9 @@
      <None Include="Assets\Fuente\Terms of Use End User Lisence Agreement.txt" />
      <None Include="Assets\Fuente\OFL.txt" />
      <None Include="Assets\Fuente\License - READ THIS.txt" />
+=======
+     <Compile Include="Assets\enviarRe.cs" />
+>>>>>>> 932e3d2d8110d73bc8500382032ed7481860d667
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
