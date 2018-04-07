@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 21f2e3f129b9bb14086ad0e8858499ae
+timeCreated: 1523130218
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: 'Admiration Pains '
+  fontNames:
+  - 'Admiration Pains '
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
