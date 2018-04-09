@@ -11,6 +11,3 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Registro.unity
     guid: 287897876944cc54a884ef271756682a
-  - enabled: 1
-    path: Assets/Profesor.unity
-    guid: 6f89dbd2fb74bc2428d35401abc79a70
