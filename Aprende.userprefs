@@ -1,8 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CodigoBotonesMenu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\RegistroEstudiante.cs">
     <Files>
-      <File FileName="Assets\Scripts\CodigoBotonesMenu.cs" Line="20" Column="2" />
+      <File FileName="Assets\Scripts\CodigoBotonesMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\RegistroEstudiante.cs" Line="12" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
