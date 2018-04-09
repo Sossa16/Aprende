@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class CodigoBotonesMenu : MonoBehaviour {
+public class CodigoCambioEscena : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {

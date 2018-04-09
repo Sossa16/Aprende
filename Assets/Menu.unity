@@ -324,7 +324,7 @@ GameObject:
   - component: {fileID: 292367644}
   - component: {fileID: 292367643}
   m_Layer: 0
-  m_Name: CodigoBotonesMenu
+  m_Name: CodigoCambioEscena
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
