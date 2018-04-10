@@ -5,15 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class CodigoCambioEscena : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 	public void cargarEscenas(string pnombreescena){
 		SceneManager.LoadScene (pnombreescena);
 	}
