@@ -5,18 +5,18 @@ using UnityEngine.UI;
 
 public class RegistroEstudiante : MonoBehaviour {
 
-	public InputField name;
-	public InputField id;
+	public InputField campoNombre;
+	public InputField campoIdProfesor;
+
+	void awake(){
+		DontDestroyOnLoad (gameObject);
+	}
 
 	public void guardar(){
-		string idProfesor = id.text;
-		string nombre = name.text;
+		string idProfesor = campoIdProfesor.text;
+		string nombre = campoNombre.text;
 		PlayerPrefs.SetString ("nombre", nombre);
 		PlayerPrefs.SetString ("idProfesor", idProfesor);
-		print (nombre + " " + idProfesor);
 	}
-
-	public void imprimir(){
-		PlayerPrefs.GetString ("nombre");
-	}
+		
 }

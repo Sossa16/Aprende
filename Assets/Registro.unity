@@ -205,8 +205,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b20448eeaf18fd448b17399ddbb5a4a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: {fileID: 1171308832}
-  id: {fileID: 1362203288}
+  campoNombre: {fileID: 1171308832}
+  campoIdProfesor: {fileID: 1362203288}
+  txtBienvenida: {fileID: 0}
 --- !u!4 &48791675
 Transform:
   m_ObjectHideFlags: 0
