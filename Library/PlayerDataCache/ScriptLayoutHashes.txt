@@ -4,7 +4,7 @@ C:/Users/Santiago/Documents/Aprende/apk/Aprende2.apk
 SceneListBegin?
 Assets/Menu.unity
 Assets/Registro.unity
-Assets/Cuestionario.unity
+Assets/Instrucciones.unity
 Assets/Profesor.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
