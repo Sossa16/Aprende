@@ -177,15 +177,15 @@ RectTransform:
   m_GameObject: {fileID: 36736044}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.45439, y: 0.37963, z: 0.39914}
+  m_LocalScale: {x: 0.44303024, y: 0.3267232, z: 0.39914}
   m_Children: []
   m_Father: {fileID: 334329313}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.52512497, y: 0.90625}
   m_AnchorMax: {x: 0.52512497, y: 0.90625}
-  m_AnchoredPosition: {x: -24, y: -14}
-  m_SizeDelta: {x: 1300, y: 300}
+  m_AnchoredPosition: {x: -10, y: -13}
+  m_SizeDelta: {x: 1332.2, y: 234.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &334329309
 GameObject:
@@ -348,8 +348,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16.6, y: -9.199997}
-  m_SizeDelta: {x: 1200, y: 2000}
+  m_AnchoredPosition: {x: 4, y: -9.199997}
+  m_SizeDelta: {x: 1062.5, y: 2000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &393931509
 MonoBehaviour:
@@ -390,7 +390,7 @@ MonoBehaviour:
     tiempo por pregunta es indefinido,pero\nla prueba se cerrara cuando finalice \nel
     tiempo(40 minutos) o cuando el\nestudiante termine la prueba.\nLa finalizar la
     prueba se dara un reporte\nal estudiante y al profesor del resultado;\neste resultado
-    dependera de cuantas\nrespuestas correctas e incorrectas haya\ntenido el estudiante.\n\n\n\n\n"
+    dependera de cuantas\nrespuestas correctas e incorrectas haya\ntenido el estudiante."
 --- !u!222 &393931510
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -429,7 +429,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5705652, y: 0.9366667}
   m_AnchorMax: {x: 0.5705652, y: 0.9366667}
-  m_AnchoredPosition: {x: -1.2999659, y: -2.2000122}
+  m_AnchoredPosition: {x: -5, y: -1}
   m_SizeDelta: {x: 1000, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &498359742
@@ -815,7 +815,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -92, y: 92.00003}
+  m_AnchoredPosition: {x: -96.50002, y: 97.07948}
   m_SizeDelta: {x: 184, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1042758689
@@ -1097,7 +1097,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 20}
+  m_SizeDelta: {x: 0, y: 12.9}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1607871947
 MonoBehaviour:
@@ -1137,8 +1137,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1540013248}
   m_HandleRect: {fileID: 1540013247}
   m_Direction: 0
-  m_Value: 0.5
-  m_Size: 0.9945652
+  m_Value: 1
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1295,8 +1295,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 11.443863, y: -35.824753}
-  m_SizeDelta: {x: 200, y: 200}
+  m_AnchoredPosition: {x: 14.2, y: 12}
+  m_SizeDelta: {x: 202.2, y: 198}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1918830516
 MonoBehaviour:
@@ -1397,7 +1397,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 0}
+  m_SizeDelta: {x: 12.2, y: 0}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &2008076573
 MonoBehaviour:
@@ -1437,8 +1437,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 522855115}
   m_HandleRect: {fileID: 522855114}
   m_Direction: 2
-  m_Value: 0.9957262
-  m_Size: 0.6100001
+  m_Value: 0.9729269
+  m_Size: 0.62700003
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
