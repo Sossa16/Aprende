@@ -8,5 +8,5 @@ public class CodigoCambioEscena : MonoBehaviour {
 	public void cargarEscenas(string pnombreescena){
 		SceneManager.LoadScene (pnombreescena);
 	}
-
+		
 }
