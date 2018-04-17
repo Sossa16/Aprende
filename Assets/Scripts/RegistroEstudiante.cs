@@ -29,16 +29,6 @@ public class RegistroEstudiante : MonoBehaviour {
 		}
 
 	}
-	/*public void validarCampos(string pnombreescena){
-		idProfesor = campoIdProfesor.text;
-		nombre = campoNombre.text;
-		if (idProfesor != null && nombre != null) {
-			SceneManager.LoadScene (pnombreescena);
 
-		} else {
-			print("Error en campos");
-		}
-		
-	}*/
 		
 }
