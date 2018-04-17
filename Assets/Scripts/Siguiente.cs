@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Siguiente : MonoBehaviour {
 
-	void OnMouseDown(){
+	public void OnMouseDown(){
 		ControladorTexto.preguntaRandom = -1;
 	}
 }

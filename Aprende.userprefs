@@ -1,34 +1,8 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Login.cs">
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ControladorTexto.cs">
->>>>>>> d0006f85a2b1feba92d3cb52127701ffdee962b1
     <Files>
-<<<<<<< HEAD
-      <File FileName="Assets\Scripts\ControladorTexto.cs" Line="12" Column="42" />
-      <File FileName="Assets\Scripts\ColorRespuestas.cs" Line="7" Column="57" />
-      <File FileName="Assets\Scripts\Respuesta1.cs" Line="24" Column="38" />
-      <File FileName="Assets\Scripts\Respuesta2.cs" Line="24" Column="39" />
-      <File FileName="Assets\Scripts\Respuesta3.cs" Line="24" Column="38" />
-      <File FileName="Assets\Scripts\Respuesta4.cs" Line="24" Column="38" />
-=======
-      <File FileName="Assets\Scripts\ControladorTexto.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Respuesta1.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Respuesta2.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Respuesta3.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Respuesta4.cs" Line="1" Column="1" />
-<<<<<<< HEAD
-      <File FileName="Assets\Scripts\CodigoCambioEscena.cs" Line="4" Column="1" />
-      <File FileName="Assets\Scripts\RegistroEstudiante.cs" Line="4" Column="1" />
-      <File FileName="Assets\Scripts\MostrarDatos.cs" Line="15" Column="1" />
-      <File FileName="Assets\Scripts\Login.cs" Line="30" Column="23" />
-=======
-      <File FileName="Assets\Scripts\CodigoCambioEscena.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Siguiente.cs" Line="18" Column="40" />
->>>>>>> d0006f85a2b1feba92d3cb52127701ffdee962b1
->>>>>>> 210717b93679c1c5a23b2b85ec33dd14d06e7b75
+      <File FileName="Assets\Scripts\Login.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

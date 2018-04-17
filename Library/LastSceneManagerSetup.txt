@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Menu.unity
-=======
 - path: Assets/Preguntas.unity
->>>>>>> d0006f85a2b1feba92d3cb52127701ffdee962b1
   isLoaded: 1
   isActive: 1

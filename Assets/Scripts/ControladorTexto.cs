@@ -11,7 +11,7 @@ public class ControladorTexto : MonoBehaviour {
 	public static string RespuestaSeleccionada;
 	public static string Seleccionada = "n";	
 
-	void Update () {
+	public void Update () {
 
 		if (preguntaRandom == -1) {
 			preguntaRandom = Random.Range (0, 4);

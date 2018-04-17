@@ -8,7 +8,7 @@ public class RegistroEstudiante : MonoBehaviour {
 	public InputField campoNombre;
 	public InputField campoIdProfesor;
 
-	void awake(){
+	public void awake(){
 		DontDestroyOnLoad (gameObject);
 	}
 
