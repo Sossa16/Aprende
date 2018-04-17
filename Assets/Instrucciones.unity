@@ -1375,7 +1375,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1540013248}
   m_HandleRect: {fileID: 1540013247}
   m_Direction: 0
-  m_Value: 0.00003796219
+  m_Value: 0
   m_Size: 0.9989598
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1750,7 +1750,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 522855114}
   m_Direction: 2
   m_Value: 0.96275914
-  m_Size: 0.4383334
+  m_Size: 0.43833333
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1866,18 +1866,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: guardar
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1562947328}
         m_MethodName: cargarEscenas
         m_Mode: 5
         m_Arguments:
@@ -1885,7 +1874,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Instrucciones
+          m_StringArgument: Preguntas
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
