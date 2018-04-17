@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CodigoCambioEscena.cs" />
      <Compile Include="Assets\Scripts\ControladorTexto.cs" />
+     <Compile Include="Assets\Scripts\Login.cs" />
      <Compile Include="Assets\Scripts\MostrarDatos.cs" />
      <Compile Include="Assets\Scripts\Quit.cs" />
      <Compile Include="Assets\Scripts\RegistroEstudiante.cs" />
