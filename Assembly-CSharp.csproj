@@ -52,10 +52,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CodigoCambioEscena.cs" />
+     <Compile Include="Assets\Scripts\ControladorTexto.cs" />
      <Compile Include="Assets\Scripts\MostrarDatos.cs" />
      <Compile Include="Assets\Scripts\Quit.cs" />
      <Compile Include="Assets\Scripts\RegistroEstudiante.cs" />
-     <Compile Include="Assets\Scripts\TextControl.cs" />
+     <Compile Include="Assets\Scripts\Respuesta1.cs" />
+     <Compile Include="Assets\Scripts\Respuesta2.cs" />
+     <Compile Include="Assets\Scripts\Respuesta3.cs" />
+     <Compile Include="Assets\Scripts\Respuesta4.cs" />
      <None Include="Assets\Fuente\Intellecta Design Free Fonts License.txt" />
      <None Include="Assets\Fuente\ReadMe.txt" />
      <None Include="Assets\Fuente\FONTLOG.txt" />
