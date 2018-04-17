@@ -11,7 +11,7 @@ public class RegistroEstudiante : MonoBehaviour {
 	string idProfesor;
 	string nombre;
 
-	void awake(){
+	public void awake(){
 		DontDestroyOnLoad (gameObject);
 	}
 

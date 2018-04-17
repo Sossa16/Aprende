@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ColorRespuestas : MonoBehaviour {
-	void OnMouseOver(){
+	public void OnMouseOver(){
 		GetComponent<TextMesh> ().color = new Color (1, 1, 1);
 	}
 
-	void OnMouseExit(){
+	public void OnMouseExit(){
 		GetComponent<TextMesh> ().color = new Color (0, 0, 0);
 	}
 }
