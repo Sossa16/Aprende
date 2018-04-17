@@ -6,28 +6,27 @@ using UnityEngine.SceneManagement;
 
 public class Login : MonoBehaviour {
 
-	public InputField campoID;
+	public InputField campoId;
 	public InputField campoContrasenia;
-	string guardarId;
-	string guardarContrasenia;
+	string idProfesor;
+	string contrasenia;
 
-
-
-	public void login(){
-		string id = campoID.text;
-		string contrasenia = campoContrasenia.text;
-		PlayerPrefs.SetString ("ID", id);
-		PlayerPrefs.SetString ("Contrasenia", contrasenia);
-		guardarId = PlayerPrefs.GetString ("ID");
-		guardarContrasenia = PlayerPrefs.GetString ("Contrasenia");
-
+	void awake(){
+		DontDestroyOnLoad (gameObject);
 	}
-	public void comparacion(string pnombreescena){
-		if (guardarId.Equals ("Santiago")) {
+
+	public void guardar(string pnombreescena){
+		idProfesor = campoId.text;
+		contrasenia = campoContrasenia.text;
+
+
+			if(idProfesor == "001" && contrasenia == "001"){
 			SceneManager.LoadScene (pnombreescena);
-		} 
-		else {
-			print ("No entra");
+			PlayerPrefs.SetString ("nombre", contrasenia);
+			PlayerPrefs.SetString ("idProfesor", idProfesor);
+
+		} else {
+			print("Usuario o contraseña incorrecta");
 		}
 
 	}
