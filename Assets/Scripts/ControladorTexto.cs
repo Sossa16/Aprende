@@ -9,20 +9,10 @@ public class ControladorTexto : MonoBehaviour {
 
 	public static int preguntaRandom = -1;
 	public static string RespuestaSeleccionada;
-	public static string Seleccionada = "n";
+	public static string Seleccionada = "n";	
 
-
-
-	// Use this for initialization
-	void Start () {
-		//GetComponent<TextMesh> ().text = preguntas [0];
-
-	}
-	
-	// Update is called once per frame
 	void Update () {
-		
-		
+
 		if (preguntaRandom == -1) {
 			preguntaRandom = Random.Range (0, 4);
 		}
@@ -35,9 +25,7 @@ public class ControladorTexto : MonoBehaviour {
 			/*Debug.Log (respuestas [preguntaRandom]);*/
 			if (respuestas [preguntaRandom] == RespuestaSeleccionada) {
 				Debug.Log ("correcto" + " " + preguntaRandom);
-			}
+			} 
 		}
-
-
 	}
 }
