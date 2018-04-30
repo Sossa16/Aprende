@@ -39,3 +39,4 @@ C:\Users\monic\Desktop\Aprende\obj\Debug\Assembly-CSharp.csproj.CoreCompileInput
 C:\Users\monic\Desktop\Aprende\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Users\monic\Desktop\Aprende\obj\Debug\Assembly-CSharp.dll
 C:\Users\monic\Desktop\Aprende\obj\Debug\Assembly-CSharp.pdb
+C:\Users\monic\Desktop\Aprende\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
