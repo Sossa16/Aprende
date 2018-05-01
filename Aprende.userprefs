@@ -2,9 +2,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ControladorTexto.cs">
     <Files>
-      <File FileName="Assets\Scripts\ControladorTexto.cs" Line="38" Column="5" />
-      <File FileName="Assets\Scripts\CodigoCambioEscena.cs" Line="14" Column="1" />
-      <File FileName="Assets\Scripts\Reporte.cs" Line="9" Column="45" />
+      <File FileName="Assets\Scripts\ReporteTexto.cs" Line="15" Column="108" />
+      <File FileName="Assets\Scripts\ControladorTexto.cs" Line="51" Column="52" />
+      <File FileName="Assets\Scripts\MostrarDatos.cs" Line="14" Column="50" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
