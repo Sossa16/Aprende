@@ -1,12 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Profesor.unity
-=======
-<<<<<<< HEAD
-- path: Assets/Preguntas.unity
-=======
 - path: Assets/Menu.unity
->>>>>>> 3d91f8d0847c4d31bc0e72ac2d1bb77462bd629a
->>>>>>> 2b81d47fe0dda4e6b9c82401776a73bcd5b15b9b
   isLoaded: 1
   isActive: 1
