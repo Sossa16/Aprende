@@ -10,6 +10,7 @@ public class RegistroEstudiante : MonoBehaviour {
 	public InputField campoIdProfesor;
 	string idProfesor;
 	string nombre;
+	public Text txtError;
 
 	public void awake(){
 		DontDestroyOnLoad (gameObject);
@@ -25,7 +26,7 @@ public class RegistroEstudiante : MonoBehaviour {
 			PlayerPrefs.SetString ("idProfesor", idProfesor);
 
 		} else {
-			print("Error en campos");
+			txtError.text = "Rellene todos los campos";
 		}
 
 	}

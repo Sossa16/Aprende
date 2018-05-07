@@ -23,3 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ReporteProfesor.unity
     guid: f840def8766d80b47bae6365a30d3966
+  - enabled: 1
+    path: Assets/ReporteEstudiante.unity
+    guid: 9fbe841f299d3334faf910d93b522e7e
