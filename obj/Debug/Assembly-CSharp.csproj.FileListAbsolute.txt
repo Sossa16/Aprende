@@ -35,8 +35,6 @@ C:\Users\monic\Desktop\Aprende\Temp\bin\Debug\UnityEngine.UIAutomation.xml
 C:\Users\monic\Desktop\Aprende\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
 C:\Users\monic\Desktop\Aprende\Temp\bin\Debug\UnityEngine.HoloLens.xml
 C:\Users\monic\Desktop\Aprende\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
-C:\Users\monic\Desktop\Aprende\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-C:\Users\monic\Desktop\Aprende\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Users\monic\Desktop\Aprende\obj\Debug\Assembly-CSharp.dll
 C:\Users\monic\Desktop\Aprende\obj\Debug\Assembly-CSharp.pdb
 C:\Users\monic\Desktop\Aprende\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache

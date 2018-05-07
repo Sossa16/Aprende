@@ -5,8 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class ControladorTexto : MonoBehaviour {
 
-	List<string> preguntas = new List<string>(){"primera pregunta", "segunda pregunta", "tercera pregunta", "cuarta pregunta"};
-	List<string> respuestas = new List<string>(){"Respuesta1", "Respuesta3", "Respuesta2", "Respuesta4"};
+	static string pr1 = "Debes preparar una exposición sobre la importancia del\nmito en la construcción de la identidad de las culturas latino-\namericanas. Para ello podrías consultar, principalmente: \n";
+	static string pr2 = "¿Cuál de los siguientes accidentes geográficos es una\nexplicación del movimiento de las placas tectónicas\na lo largo de la historia de la Tierra?";
+	static string pr3 = "Juan observa que cuando acerca dos imanes estos pueden\n atraerse o repelerse. ¿Por qué se pueden atraer dos imanes?";
+	static string pr4 = "La piscina donde nadan se limpia con “cloro”. La adición del cloro al\nagua produce una solución porque el cloro:";
+
+
+	List<string> preguntas = new List<string>(){pr1, pr2, pr3, pr4};
+	List<string> respuestas = new List<string>(){"Respuesta1", "Respuesta2", "Respuesta2", "Respuesta4"};
 	List<int> preguntaAnterior = new List<int>(){-1,-1,-1,-1};
 	public int numeroPregunta = 0;
 
@@ -23,12 +29,13 @@ public class ControladorTexto : MonoBehaviour {
 
 		} else {
 		if (preguntaRandom == -1) {
-			preguntaRandom = Random.Range (0, 3);
+			preguntaRandom = Random.Range (1, 4);
+				//Debug.Log ("asd " + preguntaRandom);
 
-			for (int i = 0; i < 2; i++) {
+				for (int i = 1; i <= preguntas.Count-1; i++) {
 					
 				if (preguntaRandom != preguntaAnterior [i]) {
-					print ("soy diferente");
+					//print ("soy diferente");
 
 				} else {
 					preguntaRandom = -1;
@@ -39,16 +46,17 @@ public class ControladorTexto : MonoBehaviour {
 			if (preguntaRandom > -1) {
 				GetComponent<TextMesh> ().text = preguntas [preguntaRandom];
 				preguntaAnterior [numeroPregunta] = preguntaRandom;
-			}
+			} 
 
 			if (Seleccionada == "y") {
 					
 				totalPreguntas += 1;
 				numeroPregunta += 1;
 				Seleccionada = "n";
+					//Debug.Log (preguntaRandom);
 
 				if (respuestas [preguntaRandom] == RespuestaSeleccionada) {
-					Debug.Log ("correcto" + " " + preguntaRandom);
+						Debug.Log (RespuestaSeleccionada);
 					preguntasCorrectas += 1;
 	
 					} 
