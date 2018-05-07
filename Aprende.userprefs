@@ -1,7 +1,8 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ControladorTexto.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MostrarDatosProfesor.cs">
     <Files>
+<<<<<<< HEAD
       <File FileName="Assets\Scripts\ControladorTexto.cs" Line="16" Column="60" />
       <File FileName="Assets\Scripts\Respuesta1.cs" Line="11" Column="61" />
       <File FileName="Assets\Scripts\Respuesta2.cs" Line="12" Column="61" />
@@ -9,6 +10,12 @@
       <File FileName="Assets\Scripts\Respuesta4.cs" Line="12" Column="60" />
       <File FileName="Assets\Scripts\MostrarDatos.cs" Line="14" Column="50" />
       <File FileName="Assets\Scripts\MostrarDatosProfesor.cs" Line="10" Column="17" />
+=======
+      <File FileName="Assets\Scripts\RegistroEstudiante.cs" Line="29" Column="4" />
+      <File FileName="Assets\Scripts\Login.cs" Line="41" Column="2" />
+      <File FileName="Assets\Scripts\MostrarDatosProfesor.cs" Line="11" Column="55" />
+      <File FileName="Assets\Scripts\MostrarDatos.cs" Line="18" Column="2" />
+>>>>>>> 332fa2a586d79f3eb081bf49905706cff71f0ba8
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
