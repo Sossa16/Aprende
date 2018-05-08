@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Preguntas.unity
-=======
 - path: Assets/SesionProfesor.unity
->>>>>>> 332fa2a586d79f3eb081bf49905706cff71f0ba8
   isLoaded: 1
   isActive: 1

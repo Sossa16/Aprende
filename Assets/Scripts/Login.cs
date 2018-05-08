@@ -26,7 +26,7 @@ public class Login : MonoBehaviour {
 			PlayerPrefs.SetString ("nombre", contrasenia);
 			PlayerPrefs.SetString ("idProfesor", idProfesor);
 		} else {
-			if (idProfesor != "001" && contrasenia != "001") {
+			if (idProfesor != "001" || contrasenia != "001") {
 				txtError.text = "Usuario o contraseña incorrectos";
 			}
 			
