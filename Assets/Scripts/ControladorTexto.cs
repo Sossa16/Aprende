@@ -22,46 +22,57 @@ public class ControladorTexto : MonoBehaviour {
 	public static int preguntasCorrectas = 0;
 	public int totalPreguntas = 0;
 
+
+
 	public void Update ()
 	{
-		if (totalPreguntas == 3) {
-			Reporte.OnMouseDown ();
-
-		} else {
+		
 		if (preguntaRandom == -1) {
-			preguntaRandom = Random.Range (1, 4);
-				//Debug.Log ("asd " + preguntaRandom);
+			preguntaRandom = Random.Range (0, 4);
 
-				for (int i = 1; i <= preguntas.Count-1; i++) {
-					
-				if (preguntaRandom != preguntaAnterior [i]) {
-					//print ("soy diferente");
+		}
 
+		if (preguntaRandom > -1) {
+			GetComponent<TextMesh> ().text = preguntas [preguntaRandom];
+			preguntaAnterior [numeroPregunta] = preguntaRandom;				
+		}
+
+//			for (int i = 1; i <= preguntas.Count - 1; i++) {
+//				if (preguntaRandom != preguntaAnterior [i]) {
+//					print ("soy diferente");
+//				} else {
+//					preguntaRandom = -1;
+//				}
+//			}
+			
+
+		if (Seleccionada == "y") {
+
+
+			//numeroPregunta += 1;
+			Seleccionada = "n";
+			Debug.Log (respuestas [preguntaRandom]);
+			if (respuestas [preguntaRandom] == RespuestaSeleccionada) {
+				totalPreguntas += 1;
+				preguntasCorrectas = preguntasCorrectas + 1;
+				print ("si");
+				if (totalPreguntas>=3) {
+					Reporte.OnMouseDown ();
 				} else {
-					preguntaRandom = -1;
+					CambioPregunta.OnMouseDown ();
 				}
 
-			}
-
-			if (preguntaRandom > -1) {
-				GetComponent<TextMesh> ().text = preguntas [preguntaRandom];
-				preguntaAnterior [numeroPregunta] = preguntaRandom;
-			} 
-
-			if (Seleccionada == "y") {
-					
+			} else {
+				
 				totalPreguntas += 1;
-				numeroPregunta += 1;
-				Seleccionada = "n";
-					//Debug.Log (preguntaRandom);
-
-				if (respuestas [preguntaRandom] == RespuestaSeleccionada) {
-						Debug.Log (RespuestaSeleccionada);
-					preguntasCorrectas += 1;
-	
-					} 
+				print ("no");
+				if (totalPreguntas >= 3) {
+					Reporte.OnMouseDown ();
+				} else {
+					CambioPregunta.OnMouseDown ();
 				}
 			}
 		}
 	}
 }
+

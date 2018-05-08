@@ -21,7 +21,8 @@ public class Respuesta1 : MonoBehaviour {
 
 	 public void OnMouseDown(){
 		ControladorTexto.RespuestaSeleccionada = gameObject.name;
+		//Debug.Log (gameObject.name);
 		ControladorTexto.Seleccionada= "y";
-		ControladorTexto.preguntaRandom = -1;
+		//ControladorTexto.preguntaRandom = -1;
 	}
 }

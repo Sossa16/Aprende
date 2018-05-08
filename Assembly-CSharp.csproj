@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\EmptyClass.cs" />
+     <Compile Include="Assets\Scripts\CambioPregunta.cs" />
      <Compile Include="Assets\Scripts\CodigoCambioEscena.cs" />
      <Compile Include="Assets\Scripts\ColorRespuestas.cs" />
      <Compile Include="Assets\Scripts\ControladorTexto.cs" />
