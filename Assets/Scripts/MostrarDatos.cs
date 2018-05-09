@@ -11,7 +11,7 @@ public class MostrarDatos : MonoBehaviour {
 	// Use this for initialization
 	public void Start () {
 		string nombreM= PlayerPrefs.GetString ("nombre");
-		txtBienvenida.text = "Bienvenido \n" + nombreM;
+		txtBienvenida.text = "Bienvenido(a) \n" + nombreM;
 
 	}
 

@@ -58,7 +58,6 @@
      <Compile Include="Assets\Scripts\ControladorTexto.cs" />
      <Compile Include="Assets\Scripts\Login.cs" />
      <Compile Include="Assets\Scripts\MostrarDatos.cs" />
-     <Compile Include="Assets\Scripts\MostrarDatosProfesor.cs" />
      <Compile Include="Assets\Scripts\Quit.cs" />
      <Compile Include="Assets\Scripts\RegistroEstudiante.cs" />
      <Compile Include="Assets\Scripts\Reporte.cs" />

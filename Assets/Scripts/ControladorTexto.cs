@@ -26,7 +26,7 @@ public class ControladorTexto : MonoBehaviour {
 
 	public void Update ()
 	{
-		
+
 		if (preguntaRandom == -1) {
 			preguntaRandom = Random.Range (0, 4);
 
@@ -37,14 +37,14 @@ public class ControladorTexto : MonoBehaviour {
 			preguntaAnterior [numeroPregunta] = preguntaRandom;				
 		}
 
-//			for (int i = 1; i <= preguntas.Count - 1; i++) {
-//				if (preguntaRandom != preguntaAnterior [i]) {
-//					print ("soy diferente");
-//				} else {
-//					preguntaRandom = -1;
-//				}
-//			}
-			
+		//			for (int i = 1; i <= preguntas.Count - 1; i++) {
+		//				if (preguntaRandom != preguntaAnterior [i]) {
+		//					print ("soy diferente");
+		//				} else {
+		//					preguntaRandom = -1;
+		//				}
+		//			}
+
 
 		if (Seleccionada == "y") {
 
@@ -63,7 +63,7 @@ public class ControladorTexto : MonoBehaviour {
 				}
 
 			} else {
-				
+
 				totalPreguntas += 1;
 				print ("no");
 				if (totalPreguntas >= 3) {

@@ -30,7 +30,7 @@ public class Login : MonoBehaviour {
 				txtError.text = "Usuario o contraseña incorrectos";
 			}
 			
-			if (idProfesor == "" && contrasenia == "") {
+			if (idProfesor == "" || contrasenia == "") {
 				txtError.text = "Rellene todos los campos";
 
 			}

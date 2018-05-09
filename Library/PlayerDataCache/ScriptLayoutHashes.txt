@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/Santiago/Documents/Aprende/apk/Aprende3.apk
+C:/Users/Santiago/Downloads/Aprende4.apk
 SceneListBegin?
 Assets/MenuRol.unity
 Assets/RegistroEstudiante.unity
@@ -22,7 +22,6 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 31aaf521b3ef8699466676591ea0efd4 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 31aaf521b3ef8699466676591ea0efd4 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
-2570aa39947a7ec61a07da1df5aff3cc Assembly-CSharp.dll:.MostrarDatosProfesor
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -164,3 +163,4 @@ e77d06cd3c8e5cee2bcc3f4aa9dd0f52 Assembly-CSharp.dll:.ReporteTexto
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Respuesta3
 27e9df899a5d4a29994ba3f4bce7c069 Assembly-CSharp.dll:.RegistroEstudiante
 b14934e91d114ce26e18630f41d6268b Assembly-CSharp.dll:.Login
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CambioPregunta
