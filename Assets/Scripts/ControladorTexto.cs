@@ -13,7 +13,7 @@ public class ControladorTexto : MonoBehaviour {
 
 	List<string> preguntas = new List<string>(){pr1, pr2, pr3, pr4};
 	List<string> respuestas = new List<string>(){"Respuesta1", "Respuesta2", "Respuesta2", "Respuesta4"};
-	List<int> preguntaAnterior = new List<int>(){-1,-1,-1,-1};
+	//List<int> preguntaAnterior = new List<int>(){-1,-1,-1,-1};
 	public int numeroPregunta = 0;
 
 	public static int preguntaRandom = -1;
@@ -23,20 +23,25 @@ public class ControladorTexto : MonoBehaviour {
 	public int totalPreguntas = 0;
 
 
-
 	public void Update ()
 	{
+<<<<<<< HEAD
+=======
+		
+		if (preguntaRandom > -1) {
+			GetComponent<TextMesh> ().text = preguntas [preguntaRandom];
+					
+		} 
+>>>>>>> cf62498a05fa08002987820c64be50a26e6f0694
 
 		if (preguntaRandom == -1) {
 			preguntaRandom = Random.Range (0, 4);
+			print(preguntaRandom + "if");
 
 		}
 
-		if (preguntaRandom > -1) {
-			GetComponent<TextMesh> ().text = preguntas [preguntaRandom];
-			preguntaAnterior [numeroPregunta] = preguntaRandom;				
-		}
 
+<<<<<<< HEAD
 		//			for (int i = 1; i <= preguntas.Count - 1; i++) {
 		//				if (preguntaRandom != preguntaAnterior [i]) {
 		//					print ("soy diferente");
@@ -47,31 +52,44 @@ public class ControladorTexto : MonoBehaviour {
 
 
 		if (Seleccionada == "y") {
+=======
+>>>>>>> cf62498a05fa08002987820c64be50a26e6f0694
 
 
+		if (Seleccionada == "y") {
 			//numeroPregunta += 1;
 			Seleccionada = "n";
-			Debug.Log (respuestas [preguntaRandom]);
+
+			print (respuestas [preguntaRandom]+ " " +RespuestaSeleccionada);
 			if (respuestas [preguntaRandom] == RespuestaSeleccionada) {
-				totalPreguntas += 1;
+				
+				totalPreguntas = totalPreguntas + 1;
 				preguntasCorrectas = preguntasCorrectas + 1;
 				print ("si");
-				if (totalPreguntas>=3) {
+				if (totalPreguntas==3) {
 					Reporte.OnMouseDown ();
 				} else {
 					CambioPregunta.OnMouseDown ();
 				}
 
 			} else {
+<<<<<<< HEAD
 
 				totalPreguntas += 1;
 				print ("no");
 				if (totalPreguntas >= 3) {
 					Reporte.OnMouseDown ();
 				} else {
+=======
+				totalPreguntas = totalPreguntas +1;
+				if(totalPreguntas!=3){
+>>>>>>> cf62498a05fa08002987820c64be50a26e6f0694
 					CambioPregunta.OnMouseDown ();
+				}else{
+					Reporte.OnMouseDown ();
 				}
 			}
+
 		}
 	}
 }
