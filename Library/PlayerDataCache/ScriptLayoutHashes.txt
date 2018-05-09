@@ -1,13 +1,14 @@
 Android
 PlayerPath?
-C:/Users/Santiago/Documents/Aprende/apk/Aprende2.apk
+C:/Users/Santiago/Documents/Aprende/apk/Aprende3.apk
 SceneListBegin?
-Assets/Menu.unity
-Assets/Registro.unity
+Assets/MenuRol.unity
+Assets/RegistroEstudiante.unity
 Assets/Instrucciones.unity
-Assets/Profesor.unity
+Assets/SesionProfesor.unity
 Assets/Preguntas.unity
-Assets/ReporteProfesor.unity
+Assets/ListaRespuestasProfesor.unity
+Assets/ReporteEstudiante.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 dbc29a6f2739d277c10da432d73adb6d UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -123,6 +124,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CodigoCambioEscena
 2570aa39947a7ec61a07da1df5aff3cc Assembly-CSharp.dll:.MostrarDatos
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Reporte
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Respuesta1
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Respuesta2
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
@@ -156,8 +158,9 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ControladorTexto
+59107cd1ed08a0af5c720f3d5ff39bbf Assembly-CSharp.dll:.ControladorTexto
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+e77d06cd3c8e5cee2bcc3f4aa9dd0f52 Assembly-CSharp.dll:.ReporteTexto
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Respuesta3
-e328ee8137f3e1ca5f997ce3bef88b73 Assembly-CSharp.dll:.RegistroEstudiante
-1275525875968034015bfd3008b41605 Assembly-CSharp.dll:.Login
+27e9df899a5d4a29994ba3f4bce7c069 Assembly-CSharp.dll:.RegistroEstudiante
+b14934e91d114ce26e18630f41d6268b Assembly-CSharp.dll:.Login
