@@ -639,13 +639,14 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
-    Collab: 0
+    Build: 1
+    Collab: 1
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 1b6ecf91-13ea-408f-9be0-0275a29137ae
-  projectName: New Unity Project
-  organizationId: scardozoq
+  cloudProjectId: c896b2bd-16ff-4c8d-97c3-f34fa3dd2703
+  projectName: Aprende (1)
+  organizationId: santiago_1016
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
