@@ -15,7 +15,7 @@ public class Respuesta2 : MonoBehaviour {
 	static string r9 = "Es una adaptacion al clima del planeta";
 	static string r10 = "Por dos células.";
 
-	static string r11 = "-2";
+	static string r11 = "2";
 	static string r12 = "-5";
 	static string r13 = "Sábado";
 	static string r14 = "-7";
