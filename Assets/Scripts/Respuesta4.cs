@@ -15,7 +15,7 @@ public class Respuesta4 : MonoBehaviour {
 	static string r9 = "Es la transformación progresiva de las\n especies para poder sobrevivir.";
 	static string r10 = "Por seis células.";
 
-	static string r11 = "-2";
+	static string r11 = "-3";
 	static string r12 = "7";
 	static string r13 = "Miércoles";
 	static string r14 = "4";

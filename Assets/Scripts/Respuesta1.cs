@@ -10,7 +10,7 @@ public class Respuesta1 : MonoBehaviour {
 	static string r5 = "Flora";
 	static string r6 = "La naturaleza";
 	static string r7 = "Invierno";
-	static string r8 = "Es un resto de un ser vivo que se ha petrificado a través de los años.";
+	static string r8 = "Es un resto de un ser vivo que se ha petrificado a través\nde los años.";
 	static string r9 = "Al paso del tiempo en la civilización";
 	static string r10 ="Por una célula.";
 

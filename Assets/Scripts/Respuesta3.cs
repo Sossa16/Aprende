@@ -15,7 +15,7 @@ public class Respuesta3 : MonoBehaviour {
 	static string r9 = "Es el cambio de una persona";
 	static string r10 = "Por tres células.";
 
-	static string r11 = "-2";
+	static string r11 = "-5";
 	static string r12 = "5";
 	static string r13 = "Lunes";
 	static string r14 = "-2";
