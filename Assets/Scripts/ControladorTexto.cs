@@ -51,7 +51,11 @@ public class ControladorTexto : MonoBehaviour {
 
 	public void Update ()
 	{
+<<<<<<< HEAD
 
+=======
+		
+>>>>>>> 18004a55ff0da5422e95192faf563093388e315a
 		if (preguntaRandom > -1) {
 			GetComponent<TextMesh> ().text = preguntas [preguntaRandom];
 
@@ -62,7 +66,23 @@ public class ControladorTexto : MonoBehaviour {
 			print(preguntaRandom + "if");
 
 		}
+<<<<<<< HEAD
 			
+=======
+
+
+
+		//			for (int i = 1; i <= preguntas.Count - 1; i++) {
+		//				if (preguntaRandom != preguntaAnterior [i]) {
+		//					print ("soy diferente");
+		//				} else {
+		//					preguntaRandom = -1;
+		//				}
+		//			}
+
+
+
+>>>>>>> 18004a55ff0da5422e95192faf563093388e315a
 		if (Seleccionada == "y") {
 			//numeroPregunta += 1;
 			Seleccionada = "n";
@@ -82,7 +102,11 @@ public class ControladorTexto : MonoBehaviour {
 			} else {
 
 				totalPreguntas = totalPreguntas +1;
+<<<<<<< HEAD
 				if(totalPreguntas!=20){
+=======
+				if(totalPreguntas!=3){
+>>>>>>> 18004a55ff0da5422e95192faf563093388e315a
 					CambioPregunta.OnMouseDown ();
 				}else{
 					Reporte.OnMouseDown ();

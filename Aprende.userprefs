@@ -1,5 +1,6 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ControladorTexto.cs">
     <Files>
       <File FileName="Assets\Scripts\ControladorTexto.cs" Line="85" Column="26" />
@@ -7,6 +8,12 @@
       <File FileName="Assets\Scripts\Respuesta2.cs" Line="31" Column="122" />
       <File FileName="Assets\Scripts\Respuesta3.cs" Line="31" Column="122" />
       <File FileName="Assets\Scripts\Respuesta4.cs" Line="30" Column="122" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ColorRespuestas.cs">
+    <Files>
+      <File FileName="Assets\Scripts\ControladorTexto.cs" Line="73" Column="11" />
+      <File FileName="Assets\Scripts\ColorRespuestas.cs" Line="7" Column="55" />
+>>>>>>> 18004a55ff0da5422e95192faf563093388e315a
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
