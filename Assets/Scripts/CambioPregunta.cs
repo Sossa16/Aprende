@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CambioPregunta : MonoBehaviour {
-	public static void OnMouseDown()
+
+	public void Cambio()
 	{
 		ControladorTexto.preguntaRandom = -1;
 

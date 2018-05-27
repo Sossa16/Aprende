@@ -36,9 +36,12 @@ public class ControladorTexto : MonoBehaviour {
 	static string pr20 = "La palabra flor, respecto a la palabra geranio, está\nen relación semántica de:";
 
 	List<string> preguntas = new List<string>(){pr1, pr2, pr3, pr4, pr5,pr6,pr7,pr8,pr9,pr10,pr11,pr12,pr13,pr14,pr15,pr16,pr17,pr18,pr19,pr20};
+
 	List<string> respuestas = new List<string>(){"Respuesta1", "Respuesta2", "Respuesta2", "Respuesta4",
 		"Respuesta2","Respuesta2","Respuesta3","Respuesta1","Respuesta4","Respuesta1","Respuesta2","Respuesta4","Respuesta1","Respuesta1",
 		"Respuesta2","Respuesta3","Respuesta2","Respuesta4","Respuesta4","Respuesta3"};
+
+
 	//List<int> preguntaAnterior = new List<int>(){-1,-1,-1,-1};
 	public int numeroPregunta = 0;
 
@@ -75,18 +78,13 @@ public class ControladorTexto : MonoBehaviour {
 				print ("si");
 				if (totalPreguntas==20) {
 					Reporte.OnMouseDown ();
-				} else {
-					CambioPregunta.OnMouseDown ();
 				}
 
 			} else {
 
 				totalPreguntas = totalPreguntas +1;
 
-				if(totalPreguntas!=20){
-
-					CambioPregunta.OnMouseDown ();
-				}else{
+				if(totalPreguntas ==20){
 					Reporte.OnMouseDown ();
 				}
 			}
