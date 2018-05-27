@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/Santiago/Downloads/Aprende4.apk
+C:/Users/Santiago/Desktop/Aprende.apk
 SceneListBegin?
 Assets/MenuRol.unity
 Assets/RegistroEstudiante.unity
