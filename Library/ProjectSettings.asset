@@ -4,14 +4,14 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 14
-  productGUID: b96972762930a0942984fe67a6029d21
+  productGUID: cc2f829a79faf9743ba4dd378480de25
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 3
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: Universidad Del Quindio
+  companyName: 'Universidad del Quindio '
   productName: Aprende
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -243,8 +243,8 @@ PlayerSettings:
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/Santiago/Documents/Aprende/Certificados/userKey.keystore
-  AndroidKeyaliasName: 
+  AndroidKeystoreName: C:/Users/Santiago/Documents/Clave del juego/user.keystore
+  AndroidKeyaliasName: aprendeclave
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
   AndroidEnableTango: 0
@@ -565,14 +565,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: New Unity Project
+  metroPackageName: Aprende
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: New Unity Project
+  metroApplicationDescription: Aprende
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 
@@ -638,19 +638,12 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled:
-<<<<<<< HEAD
-    Collab: 1
-=======
-    Build: 0
-    Collab: 0
->>>>>>> 614592ca516b08be411851fe0833f244315c5916
-    UNet: 1
+  cloudServicesEnabled: {}
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: c896b2bd-16ff-4c8d-97c3-f34fa3dd2703
-  projectName: Aprende (1)
-  organizationId: santiago_1016
+  cloudProjectId: 
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
