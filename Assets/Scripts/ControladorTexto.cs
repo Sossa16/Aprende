@@ -50,22 +50,22 @@ public class ControladorTexto : MonoBehaviour {
 	static string pr30 ="embrion de una planta";
 
 
-	List<string> preguntas = new List<string>(){pr1, pr2, pr3, pr4, pr5,pr6,pr7,pr8,pr9,pr10,pr11,pr12,pr13,pr14,pr15,pr16,pr17,pr18,pr19,pr20,pr21,pr22,pr23,pr24,pr25,pr26,pr27,pr28,pr29,pr30};
+	public static List<string> preguntas = new List<string>(){pr1, pr2, pr3, pr4, pr5,pr6,pr7,pr8,pr9,pr10,pr11,pr12,pr13,pr14,pr15,pr16,pr17,pr18,pr19,pr20,pr21,pr22,pr23,pr24,pr25,pr26,pr27,pr28,pr29,pr30};
 
-	List<string> respuestas = new List<string>(){"Respuesta1", "Respuesta2", "Respuesta2", "Respuesta4",
+	public static List<string> respuestas = new List<string>(){"Respuesta1", "Respuesta2", "Respuesta2", "Respuesta4",
 		"Respuesta2","Respuesta2","Respuesta3","Respuesta1","Respuesta4","Respuesta1","Respuesta2","Respuesta4","Respuesta1","Respuesta1",
 		"Respuesta2","Respuesta3","Respuesta2","Respuesta4","Respuesta4","Respuesta3","Respuesta1","Respuesta3","Respuesta1",
 		"Respuesta2","Respuesta4","Respuesta2","Respuesta3","Respuesta3","Respuesta1","Respuesta2"};
 
 
 	//List<int> preguntaAnterior = new List<int>(){-1,-1,-1,-1};
-	public int numeroPregunta = 0;
+	public static int numeroPregunta = 0;
 
 	public static int preguntaRandom = -1;
 	public static string RespuestaSeleccionada;
 	public static string Seleccionada = "n";
 	public static int preguntasCorrectas = 0;
-	public int totalPreguntas = 0;
+	public static int totalPreguntas = 0;
 
 
 	public void Update ()
@@ -82,30 +82,9 @@ public class ControladorTexto : MonoBehaviour {
 
 		}
 
-		if (Seleccionada == "y") {
-			//numeroPregunta += 1;
-			Seleccionada = "n";
 
-			print (respuestas [preguntaRandom]+ " " +RespuestaSeleccionada);
-			if (respuestas [preguntaRandom] == RespuestaSeleccionada) {
 
-				totalPreguntas = totalPreguntas + 1;
-				preguntasCorrectas = preguntasCorrectas + 1;
-				print ("si");
-				if (totalPreguntas==30) {
-					Reporte.OnMouseDown ();
-				}
 
-			} else {
-
-				totalPreguntas = totalPreguntas +1;
-
-				if(totalPreguntas ==30){
-					Reporte.OnMouseDown ();
-				}
-			}
-
-		}
 	}
 }
 
