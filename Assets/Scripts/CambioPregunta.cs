@@ -16,17 +16,17 @@ public class CambioPregunta : MonoBehaviour {
 				ControladorTexto.totalPreguntas = ControladorTexto.totalPreguntas + 1;
 				ControladorTexto.preguntasCorrectas = ControladorTexto.preguntasCorrectas + 1;
 				print ("si");
-				if (ControladorTexto.totalPreguntas==3) {
+				if (ControladorTexto.totalPreguntas==55) {
 					Reporte.OnMouseDown ();
 				}
 
-			} else {
+			} 
+		}else {
 
-				ControladorTexto.totalPreguntas = ControladorTexto.totalPreguntas +1;
-
-				if(ControladorTexto.totalPreguntas ==3){
-					Reporte.OnMouseDown ();
-				}
+			ControladorTexto.totalPreguntas = ControladorTexto.totalPreguntas +1;
+			print ("Salio");
+			if(ControladorTexto.totalPreguntas == 55){
+				Reporte.OnMouseDown ();
 			}
 
 		}

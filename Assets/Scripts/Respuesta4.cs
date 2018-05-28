@@ -42,8 +42,38 @@ public class Respuesta4 : MonoBehaviour {
 	static string r29 ="A y B";
 	static string r30 ="Ninguna de las anteriores";
 
+	//Respuestas de lenguaje parte 2
+	static string r31 ="Partes de la oración";
+	static string r32 ="desordenada";
+	static string r33 ="Expresiones escritas";
+	static string r34 ="historia";
+	static string r35 ="vive";
+	static string r36 ="haces";
+	static string r37 ="tener / teno";
+	static string r38 ="iba";
+	static string r39 ="seremos";
+	static string r40 ="A final";
+	static string r41 ="ha tenido";
+	static string r42 ="compraré/estudio";
+	static string r43 ="es";
+	static string r44 ="vendría";
+	static string r45 ="volverás";
 
-	List<string> respuestasD = new List<string>(){r1, r2, r3,r4,r5,r6,r7,r8,r9,r10,r11,r12,r13,r14,r15,r16,r17,r18,r19,r20,r21,r22,r23,r24,r25,r26,r27,r28,r29,r30};
+	//Respuestas de matematicas parte 2
+	static string r46 ="60";
+	static string r47 ="Concreto";
+	static string r48 ="Suplementarios";
+	static string r49 ="Equiláteros";
+	static string r50 ="Rectángulos";
+
+	//Respuestas de ciencias sociales 
+	static string r51 ="educación, salud y alimentos";
+	static string r52 ="Al perro";
+	static string r53 ="6 regiones naturales";
+	static string r54 ="Heliconia";
+	static string r55 ="la Cordillera del sur";
+
+	List<string> respuestasD = new List<string>(){r1, r2, r3,r4,r5,r6,r7,r8,r9,r10,r11,r12,r13,r14,r15,r16,r17,r18,r19,r20,r21,r22,r23,r24,r25,r26,r27,r28,r29,r30,r31,r32,r33,r34,r35,r36,r37,r38,r39,r40,r41,r42,r43,r44,r45,r46,r47,r48,r49,r50,r51,r52,r53,r54,r55};
 
 	
 	// Update is called once per frame

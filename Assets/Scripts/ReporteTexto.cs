@@ -14,7 +14,7 @@ public class ReporteTexto : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		double preguntasDoble = numeroPreguntas;
-		double porcentajePreguntasCorrectas = (numeroPreguntas * 0.05) * 100;
+		double porcentajePreguntasCorrectas = (numeroPreguntas * 0.018) * 100;
 		string nombreM= PlayerPrefs.GetString ("nombre");
 		txtReporte.text = nombreM + ", su desempeño en la prueba fue de:\n" + porcentajePreguntasCorrectas + "%"  ;
 		

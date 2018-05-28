@@ -751,24 +751,99 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Pregunta:\nDebes preparar una exposici\xF3n sobre la\nimportancia del mito
-    en la construcci\xF3n de la \nidentidad de las culturas latino americanas. Para
-    \nello podr\xEDas consultar, principalmente\nRespuesta:\na.Una revista de tradiciones
-    populares orientales.\n\nPregunta:\n\xBFCu\xE1l de los siguientes accidentes geogr\xE1ficos\nes
-    una explicaci\xF3n del movimiento de las placas\n tect\xF3nicas a lo largo de
-    la historia de la Tierra?\nRespuesta:\nb.La concentraci\xF3n de los volcanes en
-    zonas\nespec\xEDficas del planeta por el choque entre\ndos o varias placas tect\xF3nicas.\n\nPregunta:\nJuan
-    observa que cuando acerca dos imanes\nestos pueden atraerse o repelerse.\n\xBFPor
-    qu\xE9 se pueden atraer dos imanes?\nRespuesta:\nb.Porque se enfrentan dos polos
-    magn\xE9ticos \nopuestos.\n\nPregunta:\nLa piscina donde nadan se limpia con\n\u201Ccloro\u201D.
-    La adici\xF3n del cloro al agua\nproduce una soluci\xF3n porque el cloro:\nRespuesta:\nd.Se
-    acumula en el fondo de la piscina.\n"
+  m_Text: "\n\n\n\nPregunta:\nDebes preparar una exposici\xF3n sobre la\nimportancia
+    del mito en la construcci\xF3n de la \nidentidad de las culturas latino americanas.
+    Para \nello podr\xEDas consultar, principalmente\nRespuesta:\na.Una revista de
+    tradiciones populares orientales.\n\nPregunta:\n\xBFCu\xE1l de los siguientes
+    accidentes geogr\xE1ficos\nes una explicaci\xF3n del movimiento de las placas\n
+    tect\xF3nicas a lo largo de la historia de la Tierra?\nRespuesta:\nb.La concentraci\xF3n
+    de los volcanes en zonas\nespec\xEDficas del planeta por el choque entre\ndos
+    o varias placas tect\xF3nicas.\n\nPregunta:\nJuan observa que cuando acerca dos
+    imanes\nestos pueden atraerse o repelerse.\n\xBFPor qu\xE9 se pueden atraer dos
+    imanes?\nRespuesta:\nb.Porque se enfrentan dos polos magn\xE9ticos \nopuestos.\n\nPregunta:\nLa
+    piscina donde nadan se limpia con\n\u201Ccloro\u201D. La adici\xF3n del cloro
+    al agua\nproduce una soluci\xF3n porque el cloro:\nRespuesta:\nd.Se acumula en
+    el fondo de la piscina.\n"
 --- !u!222 &371917282
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 371917279}
+--- !u!1 &373738309
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 373738310}
+  - component: {fileID: 373738312}
+  - component: {fileID: 373738311}
+  m_Layer: 5
+  m_Name: Area CN
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &373738310
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 373738309}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.16912378, y: 0.16717535, z: 0.39914}
+  m_Children: []
+  m_Father: {fileID: 1669054552}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.53256524, y: 0.6433334}
+  m_AnchorMax: {x: 0.53256524, y: 0.6433334}
+  m_AnchoredPosition: {x: -1.4, y: 85.9}
+  m_SizeDelta: {x: 1000, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &373738311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 373738309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 4d7fb18ba4781aa42a866839bcce6a0f, type: 3}
+    m_FontSize: 60
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 100
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Ciencias Naturales
+--- !u!222 &373738312
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 373738309}
 --- !u!1 &568336016
 GameObject:
   m_ObjectHideFlags: 0
@@ -1528,6 +1603,7 @@ RectTransform:
   m_Children:
   - {fileID: 371917280}
   - {fileID: 304615032}
+  - {fileID: 373738310}
   m_Father: {fileID: 1135498633}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

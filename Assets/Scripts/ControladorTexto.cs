@@ -49,13 +49,46 @@ public class ControladorTexto : MonoBehaviour {
 	static string pr29 ="¿Como se le llama al polvo que sueltan\nlas plantas con flores para reproducirse?";
 	static string pr30 ="embrion de una planta";
 
+	//Continuacion lenguaje
+	static string pr31 ="sustantivo y verbo son:";
+	static string pr32 ="Para que una oración tenga sentido debe estar:";
+	static string pr33 ="Llamamos sujeto a:";
+	static string pr34 ="En la oración se realiza siempre una acción,\nes decir que siempre lleva un:";
+	static string pr35 ="Complete la oración:\nLa gente de esta ciudad _______ muy simpática.";
+	static string pr36 ="Complete la oración:\nYo soy enfermera, y tú ¿a qué _________?";
+	static string pr37 ="Complete la oración:\n¿Cuántos años __________ tú? - _________ 25.";
+	static string pr38 ="Complete la oración:\nCuando ______  por la calle, me encontré con Pedro.";
+	static string pr39 ="Complete la oración:\nEl verano que viene _______________ al Caribe.";
+	static string pr40 ="Complete la oración:\n¡_______ has llegado! Hace horas que te esperábamos.";
+	static string pr41 ="Complete la oración:\nAntes, en España la gente no ______ tantas libertades.";
+	static string pr42 ="Complete la oración:\nSi me ______ una moto, te prometo que ______ mucho.";
+	static string pr43 ="Complete la oración:\nSi quieres ver esa película, ______ al cine esta noche.";
+	static string pr44 ="Complete la oración:\nOjalá ____________ Elena esta noche a la fiesta.";
+	static string pr45 ="Complete la oración:\nTe veré cuando _____________ a Barcelona.";
 
-	public static List<string> preguntas = new List<string>(){pr1, pr2, pr3, pr4, pr5,pr6,pr7,pr8,pr9,pr10,pr11,pr12,pr13,pr14,pr15,pr16,pr17,pr18,pr19,pr20,pr21,pr22,pr23,pr24,pr25,pr26,pr27,pr28,pr29,pr30};
+	//Continuacion de matematicas parte 2
+	static string pr46 = "Si 15 es el 30% de y, entonces y equivale a";
+	static string pr47 = "Los elementos de una proporción son:";
+	static string pr48 = "Los ángulos menores a 90° son:";
+	static string pr49 = "Los triángulos con sus lados iguales son:";
+	static string pr50 = "El conjunto de los números reales está formado\npor los números:";
+
+	//Preguntas de Ciencias sociales
+	static string pr51 = "¿Cuales eran las principales cosas que carecían?";
+	static string pr52 = "¿Aquien culpaba la burguesía de los males de\nla economía?";
+	static string pr53 = "¿En cuántas regiones naturales está dividido nuestro país?";
+	static string pr54 = "¿Cuál es la flor nacional de Colombia?";
+	static string pr55 = "¿De las tres cordilleras que atraviesan el territorio\ncolombiano cuál es la más extensa? ";
+
+	public static List<string> preguntas = new List<string>(){pr1, pr2, pr3, pr4, pr5,pr6,pr7,pr8,pr9,pr10,pr11,pr12,pr13,pr14,pr15,pr16,pr17,pr18,pr19,pr20,pr21,pr22,pr23,pr24,pr25,pr26,pr27,pr28,pr29,pr30,pr31,pr32,pr33,pr34,pr35,pr36,pr37,pr38,pr39,pr40,pr41,pr42,pr43,pr44,pr45,pr46,pr47,pr48,pr49,pr50,pr51,pr52,pr53,pr54,pr55};
 
 	public static List<string> respuestas = new List<string>(){"Respuesta1", "Respuesta2", "Respuesta2", "Respuesta4",
 		"Respuesta2","Respuesta2","Respuesta3","Respuesta1","Respuesta4","Respuesta1","Respuesta2","Respuesta4","Respuesta1","Respuesta1",
 		"Respuesta2","Respuesta3","Respuesta2","Respuesta4","Respuesta4","Respuesta3","Respuesta1","Respuesta3","Respuesta1",
-		"Respuesta2","Respuesta4","Respuesta2","Respuesta3","Respuesta3","Respuesta1","Respuesta2"};
+		"Respuesta2","Respuesta4","Respuesta2","Respuesta3","Respuesta3","Respuesta1","Respuesta2","Respuesta4","Respuesta2",
+		"Respuesta1","Respuesta2","Respuesta2","Respuesta3","Respuesta3","Respuesta4","Respuesta3","Respuesta1","Respuesta3","Respuesta1",
+		"Respuesta3","Respuesta3","Respuesta3","Respuesta3","Respuesta3","Respuesta2","Respuesta1","Respuesta1","Respuesta2","Respuesta1",
+		"Respuesta4","Respuesta1","Respuesta3"};
 
 
 	//List<int> preguntaAnterior = new List<int>(){-1,-1,-1,-1};
@@ -77,7 +110,7 @@ public class ControladorTexto : MonoBehaviour {
 		} 
 
 		if (preguntaRandom == -1) {
-			preguntaRandom = Random.Range (0, 30);
+			preguntaRandom = Random.Range (0, 55);
 			print(preguntaRandom + "if");
 
 		}

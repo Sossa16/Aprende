@@ -41,8 +41,39 @@ public class Respuesta1 : MonoBehaviour {
 	static string r29 ="Polen";
 	static string r30 ="Feto";
 
+	//Respuestas de lenguaje parte 2
+	static string r31 ="preposiciones";
+	static string r32 ="clara";
+	static string r33 ="La persona, animal o cosa que realiza acción\ndel verbo o de quien se dice algo.";
+	static string r34 ="principio";
+	static string r35 ="siente";
+	static string r36 ="estás";
+	static string r37 ="tenes / tengo";
+	static string r38 ="fui";
+	static string r39 ="fuimos";
+	static string r40 ="Por fin";
+	static string r41 ="tendrían";
+	static string r42 ="compras/estudiaré";
+	static string r43 ="viene";
+	static string r44 ="vendrá";
+	static string r45 ="vuelves";
 
-	List<string> respuestasA = new List<string>(){r1, r2, r3,r4,r5,r6,r7,r8,r9,r10,r11,r12,r13,r14,r15,r16,r17,r18,r19,r20,r21,r22,r23,r24,r25,r26,r27,r28,r29,r30};
+	//Respuestas de matematicas parte 2
+	static string r46 ="30";
+	static string r47 ="Cociente";
+	static string r48 ="Adyacentes";
+	static string r49 ="Isósceles";
+	static string r50 ="Racionales";
+
+	//Respuestas de ciencias sociales 
+	static string r51 ="educación, licor y vivienda";
+	static string r52 ="Al gobierno de la república";
+	static string r53 ="5 regiones naturales";
+	static string r54 ="Orquídea";
+	static string r55 ="la Cordillera Occidental";
+
+
+	List<string> respuestasA = new List<string>(){r1, r2, r3,r4,r5,r6,r7,r8,r9,r10,r11,r12,r13,r14,r15,r16,r17,r18,r19,r20,r21,r22,r23,r24,r25,r26,r27,r28,r29,r30,r31,r32,r33,r34,r35,r36,r37,r38,r39,r40,r41,r42,r43,r44,r45,r46,r47,r48,r49,r50,r51,r52,r53,r54,r55};
 
 	
 	// Update is called once per frame
