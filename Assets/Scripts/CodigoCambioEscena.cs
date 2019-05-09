@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class CodigoCambioEscena : MonoBehaviour {
 
-	public void cargarEscenas(string pnombreescena){
-		SceneManager.LoadScene (pnombreescena);
+	public void cargarEscenas(string pnombreEscena){
+		SceneManager.LoadScene (pnombreEscena);
 	}
 		
 }

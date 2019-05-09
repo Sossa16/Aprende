@@ -7,9 +7,9 @@ using UnityEngine.SceneManagement;
 public class RegistroEstudiante : MonoBehaviour {
 
 	public InputField campoNombre;
-	public InputField campoIdProfesor;
-	string idProfesor;
-	string nombre;
+	public InputField campoApellido;
+	string nombreEStudiante;
+	string apellidoEstudiante;
 	public Text txtError;
 
 	public void awake(){
@@ -17,13 +17,13 @@ public class RegistroEstudiante : MonoBehaviour {
 	}
 
 	public void guardar(string pnombreescena){
-		idProfesor = campoIdProfesor.text;
-		nombre = campoNombre.text;
+		nombreEStudiante = campoNombre.text;
+		apellidoEstudiante = campoApellido.text;
 
-		if (idProfesor != "" && nombre != "") {
+		if (nombreEStudiante != "" && apellidoEstudiante != "") {
 			SceneManager.LoadScene (pnombreescena);
-			PlayerPrefs.SetString ("nombre", nombre);
-			PlayerPrefs.SetString ("idProfesor", idProfesor);
+			PlayerPrefs.SetString ("nombreEstudiante", nombreEStudiante);
+			PlayerPrefs.SetString ("apellidoEstudiante", apellidoEstudiante);
 
 		} else {
 			txtError.text = "Rellene todos los campos";

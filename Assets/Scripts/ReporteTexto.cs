@@ -5,19 +5,13 @@ using UnityEngine.UI;
 
 public class ReporteTexto : MonoBehaviour {
 
+	ManejoJuego manejoJuego = new ManejoJuego();
 	public Text txtReporte;
-	double numeroPreguntas = ControladorTexto.preguntasCorrectas;
-
-
-
-
-	// Use this for initialization
-	void Start () {
-		double preguntasDoble = numeroPreguntas;
-		double porcentajePreguntasCorrectas = (numeroPreguntas * 0.018) * 100;
-		string nombreM= PlayerPrefs.GetString ("nombre");
-		txtReporte.text = nombreM + ", su desempeño en la prueba fue de:\n" + porcentajePreguntasCorrectas + "%"  ;
+	double preguntasCorrectas = 0;
+	double correcta=0;
+    double incorrecta=0;
+	SeleccionarRespuesta seleccionarRespuesta = null;
+  	public void Start(){
 		
-	}
-		
+}
 }

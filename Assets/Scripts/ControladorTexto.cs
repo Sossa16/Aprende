@@ -114,10 +114,6 @@ public class ControladorTexto : MonoBehaviour {
 			print(preguntaRandom + "if");
 
 		}
-
-
-
-
 	}
 }
 
