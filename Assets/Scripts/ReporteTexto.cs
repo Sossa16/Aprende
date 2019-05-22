@@ -7,11 +7,24 @@ public class ReporteTexto : MonoBehaviour {
 
 	ManejoJuego manejoJuego = new ManejoJuego();
 	public Text txtReporte;
-	double preguntasCorrectas = 0;
-	double correcta=0;
-    double incorrecta=0;
-	SeleccionarRespuesta seleccionarRespuesta = null;
-  	public void Start(){
+	int correcta;
+
+	public SeleccionarRespuesta seleccionarRespuesta = null;
+
+	int totalPreguntas;
+
+	double porcentaje;
+
+	
+	public void Start(){
+		correcta = 4;
+		/* totalPreguntas = 4;
+	
 		
-}
+		porcentaje = (correcta * 1)/totalPreguntas;*/
+		string nombreM= PlayerPrefs.GetString ("nombre");
+		txtReporte.text = nombreM + ", su desempeño en la prueba fue de:\n" + correcta + "%"  ;
+		//Debug.Log("Esto esta llegando al metodo" + correcta);
+		
+	}
 }

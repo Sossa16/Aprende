@@ -45,7 +45,7 @@ public class SeleccionarRespuesta : MonoBehaviour
       //se trae el texto de la opcion de respuesta
       texto.text = opcion.respuesta;
       //se habilita el boton
-      
+      boton.onClick.RemoveAllListeners();
       boton.enabled = true;
       //Se asigna el color original a la imagen
       imagen.color = colorOriginal;

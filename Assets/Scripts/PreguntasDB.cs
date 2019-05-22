@@ -15,25 +15,21 @@ public class PreguntasDB : MonoBehaviour
     //Se crea una lista de preguntas
     [SerializeField] private List<Pregunta> listaPreguntas = null;
 
-    //Se crea una lista de preguntas para copias posteriores
-    private List<Pregunta> backup = null;
-
     /**
     Metodo que remueve las preguntas que ya salieron
     @param remove
     @return p
      */
     public Pregunta GetRandom(bool remove = true){
-        //Se crea un indice que indica cuantas pregunta hay en la DB
-        
-        //Se llama al metodo RestoreBackup para restaurar las preguntas
-        if(listaPreguntas.Count == 0){
-            
+       
+        if(listaPreguntas.Count == 0){    
         SceneManager.LoadScene ("ReporteEstudiante");
         }
-            
-
-        int index = Random.Range(0 , listaPreguntas.Count);
+        
+        int index = Random.Range(0 , listaPreguntas.Count);  
+        
+        //Debug.Log("El index es" + index);
+      
         // Se retornan la pregunta en la posicion index
         if(!remove)
             return listaPreguntas[index];
@@ -44,10 +40,8 @@ public class PreguntasDB : MonoBehaviour
         listaPreguntas.RemoveAt(index);
         //Se muestra la pregunta
         return p;
-
-
+        
+    
     }
-    
-    
     
 }
