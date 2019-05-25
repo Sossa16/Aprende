@@ -8,7 +8,7 @@ public class MostrarDatos : MonoBehaviour {
 	public Text txtBienvenida;
 	// Use this for initialization
 	public void Start () {
-		string nombreEstudiante= PlayerPrefs.GetString ("nombre");
+		string nombreEstudiante = PlayerPrefs.GetString ("nombreEstudiante");
 		txtBienvenida.text = "Bienvenido(a) \n" + nombreEstudiante;
 
 	}

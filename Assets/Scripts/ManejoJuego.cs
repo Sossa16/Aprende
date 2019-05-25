@@ -22,7 +22,9 @@ public class ManejoJuego : MonoBehaviour
 
   private AudioSource fuenteAudio = null;
 
-  private int contador = 0;
+  SeleccionarRespuesta seleccionarRespuesta = null;
+
+   int contador = 0;
 
   
   
@@ -31,6 +33,10 @@ public class ManejoJuego : MonoBehaviour
     preguntasDB = GameObject.FindObjectOfType<PreguntasDB>();
 
     preguntasUI = GameObject.FindObjectOfType<PreguntasUI>();
+
+    seleccionarRespuesta = GameObject.FindObjectOfType<SeleccionarRespuesta>();
+
+
 
     fuenteAudio = GetComponent<AudioSource>();
 
@@ -58,14 +64,17 @@ public class ManejoJuego : MonoBehaviour
     fuenteAudio.clip = seleccionarRespuesta.Opcion.correcta ? sonidoCorrecto : sonidoIncorrecto;
     seleccionarRespuesta.setColor(seleccionarRespuesta.Opcion.correcta ? colorCorrecto : colorIncorrecto);
     
+   
+    
+    
+    fuenteAudio.Play();
     if(seleccionarRespuesta.Opcion.correcta){
           contador++;
           
           Debug.Log("Este es el contador en manejo " + contador); 
       }
-    
-    
-    fuenteAudio.Play();
+
+    PlayerPrefs.SetInt ("contador", contador);
 
     yield return new WaitForSeconds(tiempoEspera);
 
@@ -75,11 +84,7 @@ public class ManejoJuego : MonoBehaviour
   } 
 
   
-
-
   
 
-
-  
 
 }

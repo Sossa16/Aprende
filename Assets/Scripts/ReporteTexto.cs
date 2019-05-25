@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ReporteTexto : MonoBehaviour {
 
-	ManejoJuego manejoJuego = new ManejoJuego();
+	ManejoJuego manejoJuego = null;
 	public Text txtReporte;
 	int correcta;
 
@@ -17,13 +17,13 @@ public class ReporteTexto : MonoBehaviour {
 
 	
 	public void Start(){
-		correcta = 4;
-		/* totalPreguntas = 4;
+		int contador = PlayerPrefs.GetInt ("contador");
+		totalPreguntas = 4;
 	
 		
-		porcentaje = (correcta * 1)/totalPreguntas;*/
-		string nombreM= PlayerPrefs.GetString ("nombre");
-		txtReporte.text = nombreM + ", su desempeño en la prueba fue de:\n" + correcta + "%"  ;
+		porcentaje = (contador * 100)/totalPreguntas;
+		string nombreM= PlayerPrefs.GetString ("nombreEstudiante");
+		txtReporte.text = nombreM + ", su desempeño en la prueba fue de:\n" + porcentaje + "%"  ;
 		//Debug.Log("Esto esta llegando al metodo" + correcta);
 		
 	}
