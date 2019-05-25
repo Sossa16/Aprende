@@ -19,7 +19,6 @@ public class PreguntasUI : MonoBehaviour
        
        textoPregunta.text = p.pregunta;
        
-
         for(int i= 0 ; i < listaRespuestas.Count ; i++){
             listaRespuestas[i].constructor(p.opciones[i] , callback);
 

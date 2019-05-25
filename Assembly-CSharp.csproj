@@ -59,6 +59,9 @@
      <Compile Include="Assets\Scripts\ControladorTexto.cs" />
      <Compile Include="Assets\Scripts\IniciarSesion.cs" />
      <Compile Include="Assets\Scripts\ManejoJuego.cs" />
+     <Compile Include="Assets\Scripts\ManejoJuego1.cs" />
+     <Compile Include="Assets\Scripts\ManejoJuego2.cs" />
+     <Compile Include="Assets\Scripts\ManejoJuego3.cs" />
      <Compile Include="Assets\Scripts\MostrarDatos.cs" />
      <Compile Include="Assets\Scripts\Opcion.cs" />
      <Compile Include="Assets\Scripts\Pregunta.cs" />

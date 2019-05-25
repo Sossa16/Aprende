@@ -22,33 +22,24 @@ public class ManejoJuego : MonoBehaviour
 
   private AudioSource fuenteAudio = null;
 
-  SeleccionarRespuesta seleccionarRespuesta = null;
-
    int contador = 0;
-
-  
-  
+   
   private void Start(){
 
     preguntasDB = GameObject.FindObjectOfType<PreguntasDB>();
 
     preguntasUI = GameObject.FindObjectOfType<PreguntasUI>();
 
-    seleccionarRespuesta = GameObject.FindObjectOfType<SeleccionarRespuesta>();
-
-
-
     fuenteAudio = GetComponent<AudioSource>();
-
-    siguientePregunta();
-
+    
+      siguientePregunta();
+    
   }
-
+  
   private void siguientePregunta(){
     preguntasUI.constructor(preguntasDB.GetRandom() , darRespuesta);
-
   }
-
+ 
   private void darRespuesta(SeleccionarRespuesta seleccionarRespuesta){
 
     StartCoroutine(darCaracteristicaRespuesta(seleccionarRespuesta));
@@ -63,9 +54,6 @@ public class ManejoJuego : MonoBehaviour
 
     fuenteAudio.clip = seleccionarRespuesta.Opcion.correcta ? sonidoCorrecto : sonidoIncorrecto;
     seleccionarRespuesta.setColor(seleccionarRespuesta.Opcion.correcta ? colorCorrecto : colorIncorrecto);
-    
-   
-    
     
     fuenteAudio.Play();
     if(seleccionarRespuesta.Opcion.correcta){

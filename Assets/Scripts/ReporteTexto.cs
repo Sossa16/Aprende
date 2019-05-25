@@ -5,16 +5,11 @@ using UnityEngine.UI;
 
 public class ReporteTexto : MonoBehaviour {
 
-	ManejoJuego manejoJuego = null;
 	public Text txtReporte;
-	int correcta;
-
-	public SeleccionarRespuesta seleccionarRespuesta = null;
-
+	
 	int totalPreguntas;
 
 	double porcentaje;
-
 	
 	public void Start(){
 		int contador = PlayerPrefs.GetInt ("contador");

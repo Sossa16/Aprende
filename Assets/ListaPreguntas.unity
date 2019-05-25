@@ -569,10 +569,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   listaPreguntas:
+  - {fileID: 334754717592013599, guid: ebaa77e1e15bd8e46b76eb9353a9c734, type: 3}
   - {fileID: 334754717592013599, guid: e211eaf275bf536458563a28ad03806f, type: 3}
-  - {fileID: 334754717592013599, guid: 36b4b1c92a2ca6f47bb47b1b3de83df8, type: 3}
-  - {fileID: 334754717592013599, guid: 398b1c8f3178edb4b83c0f9d228711de, type: 3}
-  - {fileID: 334754717592013599, guid: a2519d3fb30358e45ab2ef3dd1bd6606, type: 3}
+  listaPreguntasCiencias: []
+  listaPreguntasLenguaje: []
+  listaPreguntasSociales: []
 --- !u!4 &603966486
 Transform:
   m_ObjectHideFlags: 0

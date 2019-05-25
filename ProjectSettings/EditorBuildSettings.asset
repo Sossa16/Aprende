@@ -29,4 +29,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ListaPreguntas.unity
     guid: 3e72d30648860504bbf1a26d23d6487b
+  - enabled: 1
+    path: Assets/ListaPreguntas 1.unity
+    guid: 16dc17db324c1a84dbafe33980d55811
+  - enabled: 1
+    path: Assets/ListaPreguntas 2.unity
+    guid: 136ff078810f1244b800655a3de6959c
+  - enabled: 1
+    path: Assets/ListaPreguntas 3.unity
+    guid: 50da3733ebcc44644bc119ed10278685
   m_configObjects: {}
