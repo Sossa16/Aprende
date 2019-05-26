@@ -469,8 +469,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 2
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -687,8 +687,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -0.000009848566, y: 64.56585}
-  m_SizeDelta: {x: 180, y: 400}
+  m_AnchoredPosition: {x: 0.0000036744243, y: 65.749985}
+  m_SizeDelta: {x: 180, y: 241.6}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &604588016
 GameObject:
@@ -759,7 +759,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 12.2, y: 0}
+  m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &744646577
 MonoBehaviour:
@@ -801,7 +801,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1143598454}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.164375
+  m_Size: 0.54428804
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1017,7 +1017,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1042758689}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3aa7b6f5668879c459b09e931794db87, type: 3}
+  m_Script: {fileID: 11500000, guid: 56ce6aad3362783499c61e3abce8a1a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   txtBienvenida: {fileID: 36736045}
@@ -1220,7 +1220,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.53256524, y: 0.6433334}
   m_AnchorMax: {x: 0.53256524, y: 0.6433334}
-  m_AnchoredPosition: {x: -1.5, y: -72}
+  m_AnchoredPosition: {x: -5.1, y: -130.2}
   m_SizeDelta: {x: 1000, y: 2250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1178632872
@@ -1256,15 +1256,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Aprende es un juego de simulaci\xF3n de \r\npreguntas y respuestas tipo
-    Pre-icfes.\r\nConsta de 4 categor\xEDas diferentes:\r\n-Matem\xE1ticas\r\n-Ciencias\r\n-Lenguaje\r\n-Sociales\r\nEl
+  m_Text: "\"Aprende\" es un juego de simulaci\xF3n de \r\npreguntas y respuestas
+    tipo Icfes.\r\nConsta de 4 categor\xEDas diferentes:\r\n-Matem\xE1ticas\r\n-Ciencias\r\n-Lenguaje\r\n-Sociales\r\nEl
     juego presenta una serie de preguntas\r\ndonde el estudiante debe elegir la \r\nrespuesta
-    correcta seleccionando una\r\nde las cuatro posibilidades propuestas.\r\nEl tiempo
-    por pregunta es indefinido, pero\r\nla prueba se cerrara cuando finalice \r\nel
-    tiempo (40 minutos) o cuando el\r\nestudiante termine la prueba.\r\nAl finalizar
-    la prueba se dar\xE1 un reporte\r\nal estudiante sobre su desempe\xF1o;\r\neste
-    resultado depender\xE1 de cuantas\r\nrespuestas correctas e incorrectas haya\r\ntenido
-    el estudiante.\r\n"
+    correcta seleccionando una\r\nde las cuatro opciones propuestas.\r\nSi el jugador
+    selecciona una opci\xF3n\r\nque es correcta, el recuadro se pintar\xE1\r\nde verde,
+    pero si el jugador selecciona\r\nuna opci\xF3n que es incorrecta, el\r\nrecuadro
+    de pintar\xE1 de rojo.\r\nAl finalizar la prueba se dar\xE1 un reporte\r\nal estudiante
+    sobre su desempe\xF1o;\r\neste resultado depender\xE1 de cuantas\r\nrespuestas
+    correctas e incorrectas haya\r\ntenido el estudiante."
 --- !u!222 &1178632873
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1307,7 +1307,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.53256524, y: 0.8566667}
   m_AnchorMax: {x: 0.53256524, y: 0.8566667}
-  m_AnchoredPosition: {x: -0.80000305, y: 42.6}
+  m_AnchoredPosition: {x: -4, y: 22.9}
   m_SizeDelta: {x: 1100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1344256991
@@ -1864,8 +1864,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1561946628}
   m_HandleRect: {fileID: 1561946627}
   m_Direction: 0
-  m_Value: 1
-  m_Size: 0.99999994
+  m_Value: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2021,8 +2021,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 2
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4

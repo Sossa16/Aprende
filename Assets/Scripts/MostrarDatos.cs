@@ -5,12 +5,14 @@ using UnityEngine.UI;
 
 public class MostrarDatos : MonoBehaviour {
 
-	public Text txtBienvenida;
+	
+	public Text reporte;
 	// Use this for initialization
 	public void Start () {
 		string nombreEstudiante = PlayerPrefs.GetString ("nombreEstudiante");
-		txtBienvenida.text = "Bienvenido(a) \n" + nombreEstudiante;
-
+		string apellidoEstudiante = PlayerPrefs.GetString ("apellidoEstudiante");
+		
+		reporte.text = "Bienvenido \n" + nombreEstudiante + " " + apellidoEstudiante;
 	}
 
 }

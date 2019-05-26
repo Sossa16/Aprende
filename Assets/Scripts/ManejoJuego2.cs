@@ -22,7 +22,8 @@ public class ManejoJuego2 : MonoBehaviour
 
   private AudioSource fuenteAudio = null;
 
-   int contador = 0;
+  int contadorCorrectas = 0;
+  int contadorInorrectas = 0;
 
   private void Start(){
 
@@ -58,16 +59,17 @@ public class ManejoJuego2 : MonoBehaviour
     
     fuenteAudio.Play();
     if(seleccionarRespuesta.Opcion.correcta){
-          contador++;
-          
-          Debug.Log("Este es el contador en manejo " + contador); 
-      }
+          contadorCorrectas++;
 
-    PlayerPrefs.SetInt ("contador", contador);
+      }
+    if(!seleccionarRespuesta.Opcion.correcta){
+          contadorInorrectas++;
+    }
+
+    PlayerPrefs.SetInt ("contadorLenguajeCorrectas", contadorCorrectas);
+    PlayerPrefs.SetInt ("contadorLenguajeIncorrectas", contadorInorrectas);
 
     yield return new WaitForSeconds(tiempoEspera);
-
-    yield return contador;
 
     siguientePregunta3();
   } 

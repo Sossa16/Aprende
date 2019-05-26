@@ -63,6 +63,7 @@
      <Compile Include="Assets\Scripts\ManejoJuego2.cs" />
      <Compile Include="Assets\Scripts\ManejoJuego3.cs" />
      <Compile Include="Assets\Scripts\MostrarDatos.cs" />
+     <Compile Include="Assets\Scripts\MostrarDatos1.cs" />
      <Compile Include="Assets\Scripts\Opcion.cs" />
      <Compile Include="Assets\Scripts\Pregunta.cs" />
      <Compile Include="Assets\Scripts\PreguntasDB.cs" />
