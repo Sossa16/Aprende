@@ -23,11 +23,10 @@ public class PreguntasDB : MonoBehaviour
     @param remove
     @return p
      */
-    public Pregunta GetRandom(bool remove = true){
+    public Pregunta GetRandom9Mat(bool remove = true){
         
         if(listaPreguntas.Count == 0){ 
             SceneManager.LoadScene ("ListaPreguntas 1");
-           
         }
         
         int index = Random.Range(0 , listaPreguntas.Count);  
@@ -43,7 +42,7 @@ public class PreguntasDB : MonoBehaviour
         return p;
     }
 
-    public Pregunta GetRandom2(bool remove = true){
+    public Pregunta GetRandom9Cie(bool remove = true){
        
         if(listaPreguntasCiencias.Count == 0){    
         SceneManager.LoadScene ("ListaPreguntas 2");
@@ -61,7 +60,7 @@ public class PreguntasDB : MonoBehaviour
         //Se muestra la pregunta
         return p;
     }
-    public Pregunta GetRandom3(bool remove = true){
+    public Pregunta GetRandom9Len(bool remove = true){
        
         if(listaPreguntasLenguaje.Count == 0){    
         SceneManager.LoadScene ("ListaPreguntas 3");
@@ -79,7 +78,7 @@ public class PreguntasDB : MonoBehaviour
         //Se muestra la pregunta
         return p;
     }
-    public Pregunta GetRandom4(bool remove = true){
+    public Pregunta GetRandom9Soc(bool remove = true){
        
         if(listaPreguntasSociales.Count == 0){    
         SceneManager.LoadScene ("ReporteEstudiante");

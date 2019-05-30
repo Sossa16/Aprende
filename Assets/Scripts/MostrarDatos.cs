@@ -12,7 +12,7 @@ public class MostrarDatos : MonoBehaviour {
 		string nombreEstudiante = PlayerPrefs.GetString ("nombreEstudiante");
 		string apellidoEstudiante = PlayerPrefs.GetString ("apellidoEstudiante");
 		
-		reporte.text = "Bienvenido \n" + nombreEstudiante + " " + apellidoEstudiante;
+		reporte.text = "Reporte de \n" + nombreEstudiante + " " + apellidoEstudiante;
 	}
 
 }

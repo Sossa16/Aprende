@@ -33,12 +33,12 @@ public class ManejoJuego : MonoBehaviour
 
     fuenteAudio = GetComponent<AudioSource>();
     
-      siguientePregunta();
+    siguientePregunta();
     
   }
   
   private void siguientePregunta(){
-    preguntasUI.constructor(preguntasDB.GetRandom() , darRespuesta);
+    preguntasUI.constructor(preguntasDB.GetRandom9Mat() , darRespuesta);
   }
  
   private void darRespuesta(SeleccionarRespuesta seleccionarRespuesta){

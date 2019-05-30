@@ -38,7 +38,7 @@ public class ManejoJuego2 : MonoBehaviour
   }
   
   private void siguientePregunta3(){
-    preguntasUI.constructor(preguntasDB.GetRandom3() , darRespuesta);
+    preguntasUI.constructor(preguntasDB.GetRandom9Len() , darRespuesta);
   }
  
 

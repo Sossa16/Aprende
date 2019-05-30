@@ -20,13 +20,13 @@ public class IniciarSesion : MonoBehaviour {
 		idProfesor = campoId.text;
 		contrasenia = campoContrasenia.text;
 
-		if (idProfesor == "rectora" && contrasenia == "12345") {
+		if (idProfesor == "Rectora" && contrasenia == "12345") {
 
 			SceneManager.LoadScene (pnombreescena);
 			PlayerPrefs.SetString ("contrasenia", contrasenia);
 			PlayerPrefs.SetString ("idProfesor", idProfesor);
 		} else {
-			if (idProfesor != "rectora" || contrasenia != "12345") {
+			if (idProfesor != "Rectora" || contrasenia != "12345") {
 				txtError.text = "Usuario o contraseña incorrectos";
 			}
 			
