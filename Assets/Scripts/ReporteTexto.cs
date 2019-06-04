@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.IO;
 
 public class ReporteTexto : MonoBehaviour {
 
@@ -64,5 +65,22 @@ public class ReporteTexto : MonoBehaviour {
 									"y un total de " + incorrectasS + " preguntas contestadas incorrectamente" + "\n" + "\n";
 		
 		
+	}
+	public void generar () {
+     	string nombreEstudiante = PlayerPrefs.GetString ("nombreEstudiante");
+		string apellidoEstudiante = PlayerPrefs.GetString ("apellidoEstudiante");
+		
+		string ruta = "C:/";
+
+     if (!Directory.Exists (ruta + nombreEstudiante + apellidoEstudiante)) 
+
+		
+
+		 Directory.CreateDirectory (ruta + nombreEstudiante + apellidoEstudiante);
+    
+     //Create Text file.. but dont know how.. How to create the Text file to save to.
+     //save to textfile
+ 
+        File.WriteAllText(ruta ,"Hola soy reporte");
 	}
 }

@@ -133,6 +133,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 303ad70ce203ad874efe2965d0fbcff9 Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsEventTracker
 7fb9de8dcf73854b6b328eca1f7a6e6d Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsTracker
+1afe7b68569ddd210cce9ff93c9ad553 Assembly-CSharp.dll:.ManejoJuego6
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.CodigoCambioEscena
 94017dcc9f00fe671ea7dc427b4da011 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 650c2108faf0be4a657208495a7d8b23 Assembly-CSharp.dll:.Pregunta
@@ -181,8 +182,11 @@ a4f0a4f62100f1a4fb5cbe0e00dde83f Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 a589207f023be978e1d6c5ab09c9d767 Assembly-CSharp.dll:.ReporteTexto
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Respuesta3
+1afe7b68569ddd210cce9ff93c9ad553 Assembly-CSharp.dll:.ManejoJuego4
+1afe7b68569ddd210cce9ff93c9ad553 Assembly-CSharp.dll:.ManejoJuego5
 3e0ace201abb5b1f7c782b1ea6754f33 Assembly-CSharp.dll:.MostrarDatos1
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
+a589207f023be978e1d6c5ab09c9d767 Assembly-CSharp.dll:.ReporteTexto1
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.SeleccionarRespuesta
 ff70d4fe16db7cdcb5ae975a30b622b5 Assembly-CSharp.dll:.PreguntasDB
 c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
@@ -193,8 +197,4 @@ ed786ca922273f09ec4490f682737ef7 Assembly-CSharp.dll:.PreguntasUI
 dbddd0eeac3502e7a0eb1af7d9af9cbc Assembly-CSharp.dll:.IniciarSesion
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 ff70d4fe16db7cdcb5ae975a30b622b5 Assembly-CSharp.dll:.PreguntasDB1
-1afe7b68569ddd210cce9ff93c9ad553 Assembly-CSharp.dll:.ManejoJuego6
-1afe7b68569ddd210cce9ff93c9ad553 Assembly-CSharp.dll:.ManejoJuego4
-1afe7b68569ddd210cce9ff93c9ad553 Assembly-CSharp.dll:.ManejoJuego5
-a589207f023be978e1d6c5ab09c9d767 Assembly-CSharp.dll:.ReporteTexto1
 1afe7b68569ddd210cce9ff93c9ad553 Assembly-CSharp.dll:.ManejoJuego7

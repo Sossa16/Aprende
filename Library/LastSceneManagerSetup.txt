@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Escenas/4.Instrucciones 11.unity
+- path: Assets/Escenas/Saber 9/ReporteEstudiante.unity
   isLoaded: 1
   isActive: 1
