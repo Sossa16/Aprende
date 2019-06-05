@@ -67,20 +67,37 @@ public class ReporteTexto : MonoBehaviour {
 		
 	}
 	public void generar () {
+		//Nombre del estudiante
      	string nombreEstudiante = PlayerPrefs.GetString ("nombreEstudiante");
 		string apellidoEstudiante = PlayerPrefs.GetString ("apellidoEstudiante");
 		
-		string ruta = "C:/";
+		//Direccion de la ruta para crear la carpeta
+		string ruta = Application.dataPath + "/Reportes/"+ nombreEstudiante + apellidoEstudiante;
+		//Direccion de la ruta para crear el archivo dentro de la carpeta
+		string reporte = Application.dataPath + "/Reportes/"+ nombreEstudiante + apellidoEstudiante + "/reporte.txt";
 
-     if (!Directory.Exists (ruta + nombreEstudiante + apellidoEstudiante)) 
-
+		//Se verifica si la ruta existe
+		if (!Directory.Exists (ruta)) {
+			//De no existir, se crea el directorio
+			Directory.CreateDirectory (ruta);
+			//se verifica si exite el archivo
+			if(!File.Exists(reporte)){
+				//De no existir, se crea el archivo
+				File.WriteAllText(reporte ,"Hola soy reporte \n");
+			}else{
+				//De existir el archivo, se agrega nuevas lineas al archivo
+				File.AppendAllText(reporte ,"Hola soy reporte 2 \n");
+			}
+		}else{
+			//se verifica si exite el archivo
+			if(!File.Exists(reporte)){
+			//De no existir, se crea el archivo
+			File.WriteAllText(reporte ,"Hola soy reporte \n");
+			}else{
+				//De existir el archivo, se agrega nuevas lineas al archivo
+				File.AppendAllText(reporte ,"Hola soy reporte 3 \n");
+			}
+		}
 		
-
-		 Directory.CreateDirectory (ruta + nombreEstudiante + apellidoEstudiante);
-    
-     //Create Text file.. but dont know how.. How to create the Text file to save to.
-     //save to textfile
- 
-        File.WriteAllText(ruta ,"Hola soy reporte");
 	}
 }
