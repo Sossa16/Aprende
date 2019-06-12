@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
 
+
+
 public class ReporteTexto : MonoBehaviour {
 
 	public Text txtReporte;
@@ -44,37 +46,35 @@ public class ReporteTexto : MonoBehaviour {
 	
 		string nombreM= PlayerPrefs.GetString ("nombreEstudiante");
 
-		txtReporte.text = nombreM + ", su desempeño en la prueba fue de: " + porcentajeTotal + "%" + "\n" +
+		txtReporte.text = nombreM + ", El desempeño en la prueba fue de: " + porcentajeTotal + "%" + "\n" +
 									"Obteniendo un total de " + totalPreguntasCorrectas + " preguntas contestadas correctamente" + "\n" +
 									"y un total de " + totalPreguntasIncorrectas + " preguntas contestadas incorrectamente" + "\n" + "\n" +
 
-									"En el área de Matemáticas su desempeño fue de: " + porcentajeM + "%" + "\n" +
+									"En el área de Matemáticas el desempeño fue de: " + porcentajeM + "%" + "\n" +
 									"Obteniendo un total de " + correctasM + " preguntas contestadas correctamente" + "\n" +
 									"y un total de " + incorrectasM + " preguntas contestadas incorrectamente" + "\n" + "\n" +
 
-									"En el área de Ciencias su desempeño fue de: " + porcentajeC + "%" + "\n" +
+									"En el área de Ciencias el desempeño fue de: " + porcentajeC + "%" + "\n" +
 									"Obteniendo un total de " + correctasC + " preguntas contestadas correctamente" + "\n" +
 									"y un total de " + incorrectasC + " preguntas contestadas incorrectamente" + "\n" + "\n" +
 
-									"En el área de Lenguaje su desempeño fue de: " + porcentajeL + "%" + "\n" +
+									"En el área de Lenguaje el desempeño fue de: " + porcentajeL + "%" + "\n" +
 									"Obteniendo un total de " + correctasL + " preguntas contestadas correctamente" + "\n" +
 									"y un total de " + incorrectasL + " preguntas contestadas incorrectamente" + "\n" + "\n" +
 
-									"En el área de Sociales su desempeño fue de: " + porcentajeS + "%" + "\n" +
+									"En el área de Sociales el desempeño fue de: " + porcentajeS + "%" + "\n" +
 									"Obteniendo un total de " + correctasS + " preguntas contestadas correctamente" + "\n" +
 									"y un total de " + incorrectasS + " preguntas contestadas incorrectamente" + "\n" + "\n";
+        
+		string reporteTxt= txtReporte.text;
 		
-		
-	}
-	public void generar () {
-		//Nombre del estudiante
-     	string nombreEstudiante = PlayerPrefs.GetString ("nombreEstudiante");
+		string nombreEstudiante = PlayerPrefs.GetString ("nombreEstudiante");
 		string apellidoEstudiante = PlayerPrefs.GetString ("apellidoEstudiante");
-		
+
 		//Direccion de la ruta para crear la carpeta
-		string ruta = Application.dataPath + "/Reportes/"+ nombreEstudiante + apellidoEstudiante;
+		string ruta = "/mnt/sdcard/Reporte" + " " + nombreEstudiante + " " + apellidoEstudiante;
 		//Direccion de la ruta para crear el archivo dentro de la carpeta
-		string reporte = Application.dataPath + "/Reportes/"+ nombreEstudiante + apellidoEstudiante + "/reporte.txt";
+		string reporte = "/mnt/sdcard/Reporte" + " " + nombreEstudiante + " " + apellidoEstudiante + "/reportePrueba9°.txt";
 
 		//Se verifica si la ruta existe
 		if (!Directory.Exists (ruta)) {
@@ -83,7 +83,7 @@ public class ReporteTexto : MonoBehaviour {
 			//se verifica si exite el archivo
 			if(!File.Exists(reporte)){
 				//De no existir, se crea el archivo
-				File.WriteAllText(reporte ,"Hola soy reporte \n");
+				File.WriteAllText(reporte ,reporteTxt);
 			}else{
 				//De existir el archivo, se agrega nuevas lineas al archivo
 				File.AppendAllText(reporte ,"Hola soy reporte 2 \n");
@@ -92,12 +92,13 @@ public class ReporteTexto : MonoBehaviour {
 			//se verifica si exite el archivo
 			if(!File.Exists(reporte)){
 			//De no existir, se crea el archivo
-			File.WriteAllText(reporte ,"Hola soy reporte \n");
+			File.WriteAllText(reporte ,reporteTxt);
 			}else{
 				//De existir el archivo, se agrega nuevas lineas al archivo
-				File.AppendAllText(reporte ,"Hola soy reporte 3 \n");
+
+				File.AppendAllText(reporte ,"\n" + "------------------------" + "\n" + "\n" + "Nuevo Reporte \n" + "\n" + reporteTxt);
 			}
 		}
-		
 	}
+
 }

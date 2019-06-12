@@ -569,8 +569,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   listaPreguntas:
-  - {fileID: 334754717592013599, guid: 873b54f6ec4c34f4a987fc2ed4cc15ac, type: 3}
   - {fileID: 334754717592013599, guid: 772d2d59b27b76f4baccfc3f49a47fda, type: 3}
+  - {fileID: 334754717592013599, guid: ce6d49f9e7242e74e9c9fec99b4120fa, type: 3}
+  - {fileID: 334754717592013599, guid: 49d25d87512d64841aa13ccc7e76046c, type: 3}
+  - {fileID: 334754717592013599, guid: 0255462f113e71441949724830ea4c8f, type: 3}
+  - {fileID: 334754717592013599, guid: 4ea262fe7e49ab44eaf0e4fb1db48ac5, type: 3}
+  - {fileID: 334754717592013599, guid: 28a4f9d7b27f3304bb436239d9570840, type: 3}
+  - {fileID: 334754717592013599, guid: 0d92fb45c769b984489031c13c12d697, type: 3}
+  - {fileID: 334754717592013599, guid: a605bf9da15187940ab39eb6abdcd98b, type: 3}
+  - {fileID: 334754717592013599, guid: 1bc62348febf14e46a5ff1df61ac75ff, type: 3}
+  - {fileID: 334754717592013599, guid: c36eae7760d8ae14fb7f0b29cbe45ccd, type: 3}
+  - {fileID: 334754717592013599, guid: 0a7e0db8229e532439b1f5f995f2f285, type: 3}
+  - {fileID: 334754717592013599, guid: 49fc5f03574bf464db5c16a6c5b8a782, type: 3}
+  - {fileID: 334754717592013599, guid: 5323115f22be7154bb25d45715b82c24, type: 3}
+  - {fileID: 334754717592013599, guid: f2a6022cb9678904e807ae16facd92ea, type: 3}
+  - {fileID: 334754717592013599, guid: 2635416de7bf80b40a0efd95c4ffe8e2, type: 3}
+  - {fileID: 334754717592013599, guid: 2066e6bb0c0074c4dbfa8e391daacec6, type: 3}
+  - {fileID: 334754717592013599, guid: 964fbde5f2221c34eb1a1a5b180360e1, type: 3}
+  - {fileID: 334754717592013599, guid: 006a3a5badfefd94b84a4b442073aff6, type: 3}
+  - {fileID: 334754717592013599, guid: 5ab0b14c2962724478505701859149b0, type: 3}
+  - {fileID: 334754717592013599, guid: b6d945658e1e51444ace31492d81002c, type: 3}
   listaPreguntasCiencias: []
   listaPreguntasLenguaje: []
   listaPreguntasSociales: []

@@ -43,13 +43,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pregunta: "\xBFCuanto es 2+2? 11"
+  pregunta: "Una persona que vive en Colombia tiene inversiones en d\xF3lares en Estados
+    Unidos, y sabe que la tasa de cambio del d\xF3lar respecto al peso colombiano
+    se mantendr\xE1 constante este mes, siendo 1 d\xF3lar equivalente a 2.000 pesos
+    colombianos y que su inversi\xF3n, en d\xF3lares, le dar\xE1 ganancias del 3 %
+    en el mismo periodo. Un amigo le asegura que en pesos sus ganancias tambi\xE9n
+    ser\xE1n del 3 %. La afirmaci\xF3n de su amigo es:"
   opciones:
-  - respuesta: 4
+  - respuesta: "correcta, pues, sin importar las variaciones en la tasa de cambio,
+      la proporci\xF3n en que aumenta la inversi\xF3n en d\xF3lares es la misma que
+      en pesos."
+    correcta: 0
+  - respuesta: "incorrecta, pues deber\xEDa conocerse el valor exacto de la inversi\xF3n
+      para poder calcular la cantidad de dinero que ganar\xE1."
+    correcta: 0
+  - respuesta: "correcta, pues el 3 % representa una proporci\xF3n fija en cualquiera
+      de las dos monedas, puesto que la tasa de cambio permanecer\xE1 constante."
     correcta: 1
-  - respuesta: 5
-    correcta: 0
-  - respuesta: 6
-    correcta: 0
-  - respuesta: 7
+  - respuesta: "incorrecta, pues el 3 % representa un incremento, que ser\xE1 mayor
+      en pesos colombianos, pues en esta moneda cada d\xF3lar representa un valor
+      2.000 veces mayor."
     correcta: 0

@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/SantiagoPC/Desktop/Aprendev2019.apk
+C:/Users/SantiagoPC/Documents/Aprendev2019.apk
 SceneListBegin?
 Assets/Escenas/1.MenuRol.unity
 Assets/Escenas/2.RegistroEstudiante.unity
@@ -198,3 +198,4 @@ dbddd0eeac3502e7a0eb1af7d9af9cbc Assembly-CSharp.dll:.IniciarSesion
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 ff70d4fe16db7cdcb5ae975a30b622b5 Assembly-CSharp.dll:.PreguntasDB1
 1afe7b68569ddd210cce9ff93c9ad553 Assembly-CSharp.dll:.ManejoJuego7
+233dfa61732a3898dbcf3eea3ed243c7 Assembly-CSharp.dll:.MostrarRuta
