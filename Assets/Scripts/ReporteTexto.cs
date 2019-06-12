@@ -44,37 +44,38 @@ public class ReporteTexto : MonoBehaviour {
 		porcentajeS = (correctasS* 100)/totalPreguntasPorArea;
 
 	
-		string nombreM= PlayerPrefs.GetString ("nombreEstudiante");
-
-		txtReporte.text = nombreM + ", El desempeño en la prueba fue de: " + porcentajeTotal + "%" + "\n" +
-									"Obteniendo un total de " + totalPreguntasCorrectas + " preguntas contestadas correctamente" + "\n" +
-									"y un total de " + totalPreguntasIncorrectas + " preguntas contestadas incorrectamente" + "\n" + "\n" +
-
-									"En el área de Matemáticas el desempeño fue de: " + porcentajeM + "%" + "\n" +
-									"Obteniendo un total de " + correctasM + " preguntas contestadas correctamente" + "\n" +
-									"y un total de " + incorrectasM + " preguntas contestadas incorrectamente" + "\n" + "\n" +
-
-									"En el área de Ciencias el desempeño fue de: " + porcentajeC + "%" + "\n" +
-									"Obteniendo un total de " + correctasC + " preguntas contestadas correctamente" + "\n" +
-									"y un total de " + incorrectasC + " preguntas contestadas incorrectamente" + "\n" + "\n" +
-
-									"En el área de Lenguaje el desempeño fue de: " + porcentajeL + "%" + "\n" +
-									"Obteniendo un total de " + correctasL + " preguntas contestadas correctamente" + "\n" +
-									"y un total de " + incorrectasL + " preguntas contestadas incorrectamente" + "\n" + "\n" +
-
-									"En el área de Sociales el desempeño fue de: " + porcentajeS + "%" + "\n" +
-									"Obteniendo un total de " + correctasS + " preguntas contestadas correctamente" + "\n" +
-									"y un total de " + incorrectasS + " preguntas contestadas incorrectamente" + "\n" + "\n";
-        
-		string reporteTxt= txtReporte.text;
-		
 		string nombreEstudiante = PlayerPrefs.GetString ("nombreEstudiante");
 		string apellidoEstudiante = PlayerPrefs.GetString ("apellidoEstudiante");
 
+		txtReporte.text = nombreEstudiante + "\n" + "\n" + "El desempeño en la prueba 9° fue de: " + porcentajeTotal + "%" + "\n" +
+									"Obteniendo un total de " + totalPreguntasCorrectas + " preguntas contestadas correctamente" + "\n" +
+									"y un total de " + totalPreguntasIncorrectas + " preguntas contestadas incorrectamente.";
+
+        
+		string reporteTxt = nombreEstudiante + " " + apellidoEstudiante + "\n" + "\n" + "El desempeño en la prueba 9° fue de: " + porcentajeTotal + "%" + "\n" +
+									"Obteniendo un total de " + totalPreguntasCorrectas + " preguntas contestadas correctamente" + "\n" +
+									"y un total de " + totalPreguntasIncorrectas + " preguntas contestadas incorrectamente." + "\n" + "\n" +
+
+									"En el área de Matemáticas el desempeño fue de: " + porcentajeM + "%" + "\n" +
+									"Obteniendo un total de " + correctasM + " preguntas contestadas correctamente" + "\n" +
+									"y un total de " + incorrectasM + " preguntas contestadas incorrectamente." + "\n" + "\n" +
+
+									"En el área de Ciencias el desempeño fue de: " + porcentajeC + "%" + "\n" +
+									"Obteniendo un total de " + correctasC + " preguntas contestadas correctamente" + "\n" +
+									"y un total de " + incorrectasC + " preguntas contestadas incorrectamente." + "\n" + "\n" +
+
+									"En el área de Lenguaje el desempeño fue de: " + porcentajeL + "%" + "\n" +
+									"Obteniendo un total de " + correctasL + " preguntas contestadas correctamente" + "\n" +
+									"y un total de " + incorrectasL + " preguntas contestadas incorrectamente." + "\n" + "\n" +
+
+									"En el área de Sociales el desempeño fue de: " + porcentajeS + "%" + "\n" +
+									"Obteniendo un total de " + correctasS + " preguntas contestadas correctamente" + "\n" +
+									"y un total de " + incorrectasS + " preguntas contestadas incorrectamente." + "\n" + "\n";
+		
 		//Direccion de la ruta para crear la carpeta
-		string ruta = "/mnt/sdcard/Reporte" + " " + nombreEstudiante + " " + apellidoEstudiante;
+		string ruta = "C:/Users/SantiagoPC/Documents/Reportes Pruebas 9/Reporte" + " " + nombreEstudiante + " " + apellidoEstudiante;
 		//Direccion de la ruta para crear el archivo dentro de la carpeta
-		string reporte = "/mnt/sdcard/Reporte" + " " + nombreEstudiante + " " + apellidoEstudiante + "/reportePrueba9°.txt";
+		string reporte = "C:/Users/SantiagoPC/Documents/Reportes Pruebas 9/Reporte"+ " " + nombreEstudiante + " " + apellidoEstudiante + "/reportePrueba9°.txt";
 
 		//Se verifica si la ruta existe
 		if (!Directory.Exists (ruta)) {
