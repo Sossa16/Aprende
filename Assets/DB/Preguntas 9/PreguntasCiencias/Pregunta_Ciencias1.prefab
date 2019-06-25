@@ -11,15 +11,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pregunta: "\xBFCuadrupedo?"
+  pregunta: "El intestino delgado es el \xF3rgano encargado de absorber los nutrientes
+    y de incorporarlos a la sangre. Estos nutrientes son aprovechados por el organismo
+    y parte de ellos se transforma en desechos que salen del cuerpo. \xBFCu\xE1l de
+    los siguientes esquemas representa el orden en que ocurren estos procesos en los
+    sistemas del cuerpo?"
   opciones:
-  - respuesta: Animla con dos patas
-    correcta: 0
-  - respuesta: Animla con cuatro patas
+  - respuesta: . Sistema digestivo -> sistema circulatorio -> sistema excretor.
     correcta: 1
-  - respuesta: Animla con cinco patas
+  - respuesta: '. Sistema digestivo -> sistema respiratorio -> sistema excretor. '
     correcta: 0
-  - respuesta: Animla con seis patas
+  - respuesta: 'Sistema respiratorio -> sistema circulatorio -> sistema excretor. '
+    correcta: 0
+  - respuesta: . Sistema respiratorio -> sistema circulatorio -> sistema digestivo.
     correcta: 0
 --- !u!4 &506950229274845929
 Transform:

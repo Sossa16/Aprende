@@ -11,15 +11,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pregunta: "\xBFLadra?"
+  pregunta: "La amebiasis es una enfermedad que afecta el sistema digestivo y se adquiere
+    mediante la ingesti\xF3n de alimentos contaminados con excrementos. Para evitar
+    esta enfermedad en un barrio es importante"
   opciones:
-  - respuesta: Bedoya
+  - respuesta: Construir un sistema de alcantarillado.
     correcta: 1
-  - respuesta: Gato
+  - respuesta: Colocar en cuarentena a los enfermos del barrio
     correcta: 0
-  - respuesta: Perro
+  - respuesta: "No usar los sanitarios en ba\xF1os p\xFAblicos."
     correcta: 0
-  - respuesta: Elefante
+  - respuesta: Tener un centro de salud.
     correcta: 0
 --- !u!4 &506950229274845929
 Transform:
