@@ -1531,7 +1531,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sonidoCorrecto: {fileID: 8300000, guid: ceb1068e715d7d64695bb2fb5f74b844, type: 3}
-  sonidoIncorrecto: {fileID: 8300000, guid: 255f2f2800d08004fbae718b1f1e9f74, type: 3}
+  sonidoIncorrecto: {fileID: 8300000, guid: 302f8c0cd4446a246a3caca070f598ab, type: 3}
   colorCorrecto: {r: 0.16182667, g: 0.8584906, b: 0.10933607, a: 1}
   colorIncorrecto: {r: 0.8773585, g: 0.09518514, b: 0.11839875, a: 1}
-  tiempoEspera: 1.5
+  tiempoEspera: 1

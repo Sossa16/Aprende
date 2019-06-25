@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.IO;
 
 public class ReporteTexto1 : MonoBehaviour {
 
@@ -41,28 +42,61 @@ public class ReporteTexto1 : MonoBehaviour {
 		porcentajeS = (correctasS* 100)/totalPreguntasPorArea;
 
 	
-		string nombreM= PlayerPrefs.GetString ("nombreEstudiante");
+		string nombreEstudiante = PlayerPrefs.GetString ("nombreEstudiante");
+		string apellidoEstudiante = PlayerPrefs.GetString ("apellidoEstudiante");
 
-		txtReporte.text = nombreM + ", su desempeño en la prueba fue de: " + porcentajeTotal + "%" + "\n" +
+		txtReporte.text = nombreEstudiante + "\n" + "\n" + "El desempeño en la prueba 11° fue de: " + porcentajeTotal + "%" + "\n" +
 									"Obteniendo un total de " + totalPreguntasCorrectas + " preguntas contestadas correctamente" + "\n" +
-									"y un total de " + totalPreguntasIncorrectas + " preguntas contestadas incorrectamente" + "\n" + "\n" +
+									"y un total de " + totalPreguntasIncorrectas + " preguntas contestadas incorrectamente.";
 
-									"En el área de Matemáticas su desempeño fue de: " + porcentajeM + "%" + "\n" +
+
+		string reporteTxt =nombreEstudiante + " " + apellidoEstudiante + "\n" + "\n" + "El desempeño en la prueba 11° fue de: " + porcentajeTotal + "%" + "\n" +
+									"Obteniendo un total de " + totalPreguntasCorrectas + " preguntas contestadas correctamente" + "\n" +
+									"y un total de " + totalPreguntasIncorrectas + " preguntas contestadas incorrectamente." + "\n" + "\n" +
+
+									"En el área de Matemáticas el desempeño fue de: " + porcentajeM + "%" + "\n" +
 									"Obteniendo un total de " + correctasM + " preguntas contestadas correctamente" + "\n" +
-									"y un total de " + incorrectasM + " preguntas contestadas incorrectamente" + "\n" + "\n" +
+									"y un total de " + incorrectasM + " preguntas contestadas incorrectamente." + "\n" + "\n" +
 
-									"En el área de Ciencias su desempeño fue de: " + porcentajeC + "%" + "\n" +
+									"En el área de Ciencias el desempeño fue de: " + porcentajeC + "%" + "\n" +
 									"Obteniendo un total de " + correctasC + " preguntas contestadas correctamente" + "\n" +
-									"y un total de " + incorrectasC + " preguntas contestadas incorrectamente" + "\n" + "\n" +
+									"y un total de " + incorrectasC + " preguntas contestadas incorrectamente." + "\n" + "\n" +
 
-									"En el área de Lenguaje su desempeño fue de: " + porcentajeL + "%" + "\n" +
+									"En el área de Lenguaje el desempeño fue de: " + porcentajeL + "%" + "\n" +
 									"Obteniendo un total de " + correctasL + " preguntas contestadas correctamente" + "\n" +
-									"y un total de " + incorrectasL + " preguntas contestadas incorrectamente" + "\n" + "\n" +
+									"y un total de " + incorrectasL + " preguntas contestadas incorrectamente." + "\n" + "\n" +
 
-									"En el área de Sociales su desempeño fue de: " + porcentajeS + "%" + "\n" +
+									"En el área de Sociales el desempeño fue de: " + porcentajeS + "%" + "\n" +
 									"Obteniendo un total de " + correctasS + " preguntas contestadas correctamente" + "\n" +
-									"y un total de " + incorrectasS + " preguntas contestadas incorrectamente" + "\n" + "\n";
-		
+									"y un total de " + incorrectasS + " preguntas contestadas incorrectamente." + "\n" + "\n";
+
+		string ruta = "C:/Users/SantiagoPC/Documents/Reportes Pruebas 11/Reporte" + " " + nombreEstudiante + " " + apellidoEstudiante;
+		//Direccion de la ruta para crear el archivo dentro de la carpeta
+		string reporte = "C:/Users/SantiagoPC/Documents/Reportes Pruebas 11/Reporte" + " " + nombreEstudiante + " " + apellidoEstudiante + "/reportePrueba11°.txt";
+
+		//Se verifica si la ruta existe
+		if (!Directory.Exists (ruta)) {
+			//De no existir, se crea el directorio
+			Directory.CreateDirectory (ruta);
+			//se verifica si exite el archivo
+			if(!File.Exists(reporte)){
+				//De no existir, se crea el archivo
+				File.WriteAllText(reporte ,reporteTxt);
+			}else{
+				//De existir el archivo, se agrega nuevas lineas al archivo
+				File.AppendAllText(reporte ,"Hola soy reporte 2 \n");
+			}
+		}else{
+			//se verifica si exite el archivo
+			if(!File.Exists(reporte)){
+			//De no existir, se crea el archivo
+			File.WriteAllText(reporte ,reporteTxt);
+			}else{
+				//De existir el archivo, se agrega nuevas lineas al archivo
+
+				File.AppendAllText(reporte ,"\n" + "------------------------" + "\n" + "\n" + "Nuevo Reporte \n" + "\n" + reporteTxt);
+			}
+		}	
 		
 	}
 }

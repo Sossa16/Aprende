@@ -52,7 +52,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CodigoCambioEscena.cs" />
-     <Compile Include="Assets\Scripts\ControladorTexto.cs" />
      <Compile Include="Assets\Scripts\IniciarSesion.cs" />
      <Compile Include="Assets\Scripts\ManejoJuego.cs" />
      <Compile Include="Assets\Scripts\ManejoJuego1.cs" />
@@ -64,7 +63,6 @@
      <Compile Include="Assets\Scripts\ManejoJuego7.cs" />
      <Compile Include="Assets\Scripts\MostrarDatos.cs" />
      <Compile Include="Assets\Scripts\MostrarDatos1.cs" />
-     <Compile Include="Assets\Scripts\MostrarRuta.cs" />
      <Compile Include="Assets\Scripts\Opcion.cs" />
      <Compile Include="Assets\Scripts\Pregunta.cs" />
      <Compile Include="Assets\Scripts\PreguntasDB.cs" />
@@ -74,10 +72,6 @@
      <Compile Include="Assets\Scripts\RegistroEstudiante.cs" />
      <Compile Include="Assets\Scripts\ReporteTexto.cs" />
      <Compile Include="Assets\Scripts\ReporteTexto1.cs" />
-     <Compile Include="Assets\Scripts\Respuesta1.cs" />
-     <Compile Include="Assets\Scripts\Respuesta2.cs" />
-     <Compile Include="Assets\Scripts\Respuesta3.cs" />
-     <Compile Include="Assets\Scripts\Respuesta4.cs" />
      <Compile Include="Assets\Scripts\SeleccionarRespuesta.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
