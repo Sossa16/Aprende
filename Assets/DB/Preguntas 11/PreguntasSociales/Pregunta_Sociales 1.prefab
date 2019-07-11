@@ -43,13 +43,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pregunta: Capital de Brasil 11
+  pregunta: "Un padre de familia no est\xE1 de acuerdo con la participaci\xF3n de
+    profesores homosexuales en la educaci\xF3n de sus hijos. Al respecto, el rector
+    del colegio argumenta: \u201CLas personas con inclinaciones homosexuales, como
+    todas las personas, merecen ser amadas. Adem\xE1s, en muchos pa\xEDses gran parte
+    de la poblaci\xF3n masculina y femenina es homosexual, y las preferencias sexuales
+    son el resultado de una compleja interacci\xF3n de la biolog\xEDa con el medio
+    ambiente. Yo creo que los homosexuales pueden ense\xF1ar, siempre y cuando controlen
+    su comportamiento en clase y no afecten la orientaci\xF3n sexual de los estudiantes\u201D.
+    \xBFCu\xE1l de los siguientes enunciados del rector contiene un prejuicio cuestionable?"
   opciones:
-  - respuesta: Brasilia
+  - respuesta: "En muchos pa\xEDses, gran parte de la poblaci\xF3n masculina y femenina
+      es homosexual."
+    correcta: 0
+  - respuesta: Las personas con inclinaciones homosexuales, como todas las personas,
+      merecen ser amadas.
+    correcta: 0
+  - respuesta: "Las preferencias sexuales son el resultado de una compleja interacci\xF3n
+      de la biolog\xEDa con el medio ambiente."
+    correcta: 0
+  - respuesta: "Los homosexuales pueden ense\xF1ar, siempre y cuando controlen su
+      comportamiento en clase y no afecte la orientaci\xF3n sexual de los estudiantes."
     correcta: 1
-  - respuesta: Sao pablo
-    correcta: 0
-  - respuesta: Rio de janeiro
-    correcta: 0
-  - respuesta: Brasil
-    correcta: 0

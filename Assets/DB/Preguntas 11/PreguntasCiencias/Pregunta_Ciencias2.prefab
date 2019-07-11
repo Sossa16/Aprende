@@ -43,13 +43,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pregunta: "\xBFLadra? 11"
+  pregunta: "Un investigador sumerge un detector de sonido en agua para grabar los
+    sonidos emitidos por los animales. El detector muestra la longitud de onda, la
+    frecuencia, la velocidad de propagaci\xF3n y la distancia a la que se produce
+    el sonido emitido por los animales. El investigador saca el detector del agua
+    y registra un sonido. \xBFCu\xE1l cambio de las variables mencionadas le permite
+    asegurar al investigador que el sonido se trasmite por el aire y no por el agua?"
   opciones:
-  - respuesta: Bedoya
+  - respuesta: La longitud de onda.
+    correcta: 0
+  - respuesta: La frecuencia de la onda.
+    correcta: 0
+  - respuesta: La forma de la onda.
+    correcta: 0
+  - respuesta: La velocidad de la onda.
     correcta: 1
-  - respuesta: Gato
-    correcta: 0
-  - respuesta: Perro
-    correcta: 0
-  - respuesta: Elefante
-    correcta: 0

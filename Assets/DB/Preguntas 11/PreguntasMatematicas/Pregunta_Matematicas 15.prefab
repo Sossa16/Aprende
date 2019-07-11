@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 506950229274845929}
   - component: {fileID: 334754717592013599}
   m_Layer: 0
-  m_Name: Pregunta_Matematicas 5
+  m_Name: Pregunta_Matematicas 15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,13 +43,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pregunta: 
+  pregunta: "En un experimento se toman dos muestras E y F de una misma poblaci\xF3n
+    de bacterias en condiciones ambientales distintas. Inicialmente, en la muestra
+    E hay 4.000 bacterias y en la muestra F hay 500 bacterias. Las expresiones (2^t)(4.000)
+    y (2^2t)(500) representan las cantidades de bacterias que hay en las muestras
+    E y F, respectivamente cuando han transcurrido t horas. Las muestras E y F tendr\xE1n
+    la misma cantidad de bacterias para t igual a"
   opciones:
-  - respuesta: 
+  - respuesta: 1
     correcta: 0
-  - respuesta: 
+  - respuesta: 3
+    correcta: 1
+  - respuesta: 4
     correcta: 0
-  - respuesta: 
-    correcta: 0
-  - respuesta: 
+  - respuesta: 8
     correcta: 0

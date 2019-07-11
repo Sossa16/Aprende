@@ -43,13 +43,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pregunta: Sinonimo de bailar 11
+  pregunta: "\u201CAunque la tradici\xF3n pol\xEDtica democr\xE1tica se remonta a
+    la antigua Grecia, los pensadores pol\xEDticos no se ocuparon de la causa democr\xE1tica
+    hasta el siglo XIX. Hasta entonces ven\xEDa desech\xE1ndose la democracia como
+    el gobierno de las masas ignorantes y sin luces. Hoy parece que todos nos hemos
+    vuelto dem\xF3cratas sin contar con argumentos s\xF3lidos a favor. Los liberales,
+    los conservadores, los socialistas, los comunistas, los anarquistas y hasta los
+    fascistas se han apresurado a proclamar las virtudes de la democracia y a mostrar
+    sus credenciales dem\xF3cratas\u201D. Seg\xFAn el texto, \xBFqu\xE9 posiciones
+    pol\xEDticas se identifican como democr\xE1ticas?"
   opciones:
-  - respuesta: Danzar
+  - respuesta: "Solo las posiciones pol\xEDticas que no son extremistas."
+    correcta: 0
+  - respuesta: "Las posiciones pol\xEDticas m\xE1s recientes hist\xF3ricamente."
+    correcta: 0
+  - respuesta: "La mayor\xEDa de posiciones pol\xEDticas existentes."
     correcta: 1
-  - respuesta: Pelear
-    correcta: 0
-  - respuesta: Gritar
-    correcta: 0
-  - respuesta: Moverse
+  - respuesta: "La totalidad de corrientes pol\xEDticas posibles."
     correcta: 0

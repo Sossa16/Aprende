@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 506950229274845929}
   - component: {fileID: 334754717592013599}
   m_Layer: 0
-  m_Name: Pregunta_Matematicas 5
+  m_Name: Pregunta_Matematicas 14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,13 +43,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pregunta: 
+  pregunta: "En una empresa donde trabajan 4.200 hombres y 6.300 mujeres, se quiere
+    realizar una encuesta sobre satisfacci\xF3n laboral a una muestra de 300 personas.
+    \xBFCu\xE1l de las siguientes es una muestra representativa?"
   opciones:
-  - respuesta: 
+  - respuesta: 150 hombres y 150 mujeres elegidos al azar.
     correcta: 0
-  - respuesta: 
+  - respuesta: "Los 300 primeros empleados que entren a trabajar en un d\xEDa."
     correcta: 0
-  - respuesta: 
-    correcta: 0
-  - respuesta: 
+  - respuesta: 120 hombres y 180 mujeres elegidos al azar.
+    correcta: 1
+  - respuesta: "Los 300 trabajadores m\xE1s antiguos."
     correcta: 0

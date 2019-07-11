@@ -34,8 +34,8 @@ public class ReporteTexto : MonoBehaviour {
 		int totalPreguntasCorrectas= correctasM + correctasC + correctasL + correctasS;
 		int totalPreguntasIncorrectas = incorrectasC + incorrectasM + incorrectasL + incorrectasS;
 
-		totalPreguntas = 8;
-		totalPreguntasPorArea = 2;
+		totalPreguntas = 80;
+		totalPreguntasPorArea = 20;
 	
 		porcentajeTotal = (totalPreguntasCorrectas * 100)/totalPreguntas;
 		porcentajeM = (correctasM * 100)/totalPreguntasPorArea;

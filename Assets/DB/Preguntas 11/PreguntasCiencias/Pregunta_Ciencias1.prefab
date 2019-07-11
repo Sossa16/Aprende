@@ -43,13 +43,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pregunta: "\xBFCuadrupedo? 11"
+  pregunta: "Un bloque de hielo seco, CO2 s\xF3lido, cambia del estado s\xF3lido al
+    gaseoso en condiciones ambientales. Este cambio de estado determina un cambio
+    en la densidad del CO2. Teniendo en cuenta la informaci\xF3n anterior, tras el
+    cambio de estado, la densidad del CO2 disminuye porque"
   opciones:
-  - respuesta: Animla con dos patas
+  - respuesta: la masa de CO2 disminuye.
     correcta: 0
-  - respuesta: Animla con cuatro patas
+  - respuesta: "la distancia entre part\xEDculas y el volumen aumentan."
     correcta: 1
-  - respuesta: Animla con cinco patas
+  - respuesta: "la distancia entre part\xEDculas disminuye."
     correcta: 0
-  - respuesta: Animla con seis patas
+  - respuesta: "la distancia entre part\xEDculas aumenta y la masa disminuye."
     correcta: 0
