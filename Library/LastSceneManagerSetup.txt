@@ -1,4 +1,12 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Escenas/Saber 11/ListaPreguntas 7.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Escenas/4.Instrucciones 9.unity
+=======
+- path: Assets/Escenas/Saber 11/ReporteEstudiante 1.unity
+>>>>>>> 756e9f6a7bae9ce3bc7b7c834c73df22c81998af
+>>>>>>> 05d90355e3bf109d4d3e7d85bd0725d905fd620d
   isLoaded: 1
   isActive: 1

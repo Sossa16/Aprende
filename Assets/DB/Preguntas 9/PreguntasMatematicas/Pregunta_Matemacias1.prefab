@@ -11,16 +11,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pregunta: "\xBFCuanto es 2-2?"
+  pregunta: "Cuando se toma una cantidad m de un medicamento, el organismo tarda un
+    determinado tiempo en eliminarlo progresivamente. La expresi\xF3n y = m0,8t permite
+    calcular la cantidad de medicamento y, en miligramos, que queda en el organismo,
+    transcurrido un periodo de tiempo t, en horas, desde que una persona toma el medicamento.
+    De acuerdo con la informaci\xF3n anterior, la expresi\xF3n permite calcular:"
   opciones:
-  - respuesta: 4
+  - respuesta: La cantidad de medicamento y = 0,8 que queda en el organismo, cuando
+      ha transcurrido un tiempo t.
     correcta: 0
-  - respuesta: 5
-    correcta: 0
-  - respuesta: -2
-    correcta: 0
-  - respuesta: 0
+  - respuesta: 'El tiempo t transcurrido, cuando se ha eliminado la mitad del medicamento
+      m en el organismo. '
     correcta: 1
+  - respuesta: "La cantidad de medicamento (m \u2013 y) eliminada del organismo, cuando
+      ha transcurrido un tiempo t."
+    correcta: 0
+  - respuesta: El tiempo t transcurrido, cuando quedan 0,8 miligramos de medicamento
+      en el organismo.
+    correcta: 0
 --- !u!4 &506950229274845929
 Transform:
   m_ObjectHideFlags: 0
